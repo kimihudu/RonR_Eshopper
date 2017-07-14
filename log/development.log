@@ -1,0 +1,98 @@
+Started GET "/" for 127.0.0.1 at 2017-07-14 08:42:04 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kimiboo/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kimiboo/.rvm/gems/ruby-2.4.1@global/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 157ms (Views: 37.6ms)
+
+
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-14 09:23:34 -0400
+Processing by BrandController#index as HTML
+Completed 500 Internal Server Error in 78ms
+
+
+  
+NameError (uninitialized constant Brand::Double):
+  
+app/models/brand.rb:5:in `<class:Brand>'
+app/models/brand.rb:1:in `<top (required)>'
+app/controllers/brand_controller.rb:3:in `index'
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-14 09:25:34 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | eshopper_development.count | STARTED | {"count"=>"brands", "query"=>{}}
+MONGODB | localhost:27017 | eshopper_development.count | SUCCEEDED | 0.000833s
+MONGODB | localhost:27017 | eshopper_development.find | STARTED | {"find"=>"brands", "filter"=>{}}
+MONGODB | localhost:27017 | eshopper_development.find | SUCCEEDED | 0.000425s
+  Rendered brand/index.html.erb within layouts/application (225.6ms)
+Completed 500 Internal Server Error in 267ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `person' for #<#<Class:0x007faba9dc53f0>:0x007fabada8b0c8>
+Did you mean?  response):
+    26:           <td><%= brand.name %></td>
+    27:           <td><%= brand.lName %></td>
+    28:           <td><%= brand.qTy %></td>
+    29:           <td><%= person.notes %></td>
+    30:           <td>
+    31:             <%= link_to "Edit", edit_brand_path(brand), class: "btn btn-default" %>
+    32:           </td>
+  
+app/views/brand/index.html.erb:29:in `block in _app_views_brand_index_html_erb___666322128249961333_70187632963600'
+app/views/brand/index.html.erb:24:in `_app_views_brand_index_html_erb___666322128249961333_70187632963600'
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-14 09:26:17 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | localhost:27017 | eshopper_development.count | STARTED | {"count"=>"brands", "query"=>{}}
+MONGODB | localhost:27017 | eshopper_development.count | SUCCEEDED | 0.000561s
+MONGODB | localhost:27017 | eshopper_development.find | STARTED | {"find"=>"brands", "filter"=>{}}
+MONGODB | localhost:27017 | eshopper_development.find | SUCCEEDED | 0.000791s
+  Rendered brand/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 2171ms (Views: 2167.3ms)
+
+
+Started GET "/brand/592ed58f50c4e2aa4799e373/edit" for 127.0.0.1 at 2017-07-14 09:26:35 -0400
+Processing by BrandController#edit as HTML
+  Parameters: {"id"=>"592ed58f50c4e2aa4799e373"}
+MONGODB | localhost:27017 | eshopper_development.find | STARTED | {"find"=>"brands", "filter"=>{"_id"=>BSON::ObjectId('592ed58f50c4e2aa4799e373')}}
+MONGODB | localhost:27017 | eshopper_development.find | SUCCEEDED | 0.07039999999999999s
+  Rendering brand/edit.html.erb within layouts/application
+  Rendered brand/_form.html.erb (115.8ms)
+  Rendered brand/edit.html.erb within layouts/application (128.8ms)
+Completed 200 OK in 238ms (Views: 147.5ms)
+
+
+Started GET "/brand/new" for 127.0.0.1 at 2017-07-14 09:26:56 -0400
+Processing by BrandController#new as HTML
+  Rendering brand/new.html.erb within layouts/application
+  Rendered brand/_form.html.erb (110.8ms)
+  Rendered brand/new.html.erb within layouts/application (113.2ms)
+Completed 500 Internal Server Error in 140ms
+
+
+  
+ActionView::Template::Error (undefined method `brands_path' for #<#<Class:0x007faba9dc53f0>:0x007faba9ed3620>
+Did you mean?  brand_path):
+    1: <%= form_for @brand do |f| %>
+    2:   <div class="form-group">
+    3:     <%= f.label :name %>
+    4:     <%= f.text_field :name, class: "form-control" %>
+  
+app/views/brand/_form.html.erb:1:in `_app_views_brand__form_html_erb___2297983018059342313_70187623827740'
+app/views/brand/new.html.erb:3:in `_app_views_brand_new_html_erb__995877897305927568_70187674830020'
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-14 09:27:26 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | localhost:27017 | eshopper_development.count | STARTED | {"count"=>"brands", "query"=>{}}
+MONGODB | localhost:27017 | eshopper_development.count | SUCCEEDED | 0.00041200000000000004s
+MONGODB | localhost:27017 | eshopper_development.find | STARTED | {"find"=>"brands", "filter"=>{}}
+MONGODB | localhost:27017 | eshopper_development.find | SUCCEEDED | 0.00042199999999999996s
+  Rendered brand/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 112ms (Views: 77.5ms)
+
+
