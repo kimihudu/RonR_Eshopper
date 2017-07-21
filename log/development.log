@@ -96,3 +96,1996 @@ MONGODB | localhost:27017 | eshopper_development.find | SUCCEEDED | 0.0004219999
 Completed 200 OK in 112ms (Views: 77.5ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-07-14 12:27:19 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+  Rendered brand/index.html.erb within layouts/application (31179.4ms)
+Completed 500 Internal Server Error in 31404ms
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x80170668 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    16:     </tr>
+    17:   </thead>
+    18:   <tbody>
+    19:     <% if @brand.size == 0 %>
+    20:       <tr>
+    21:         <td colspan="6">No people found.</td>
+    22:       </tr>
+  
+app/views/brand/index.html.erb:19:in `_app_views_brand_index_html_erb__364630599_58918392'
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-14 12:28:05 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+  Rendered brand/index.html.erb within layouts/application (30097.3ms)
+Completed 500 Internal Server Error in 30165ms
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x58405068 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    16:     </tr>
+    17:   </thead>
+    18:   <tbody>
+    19:     <% if @brand.size == 0 %>
+    20:       <tr>
+    21:         <td colspan="6">No people found.</td>
+    22:       </tr>
+  
+app/views/brand/index.html.erb:19:in `_app_views_brand_index_html_erb__364630599_58520568'
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-14 12:36:49 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | localhost:27017 | eshopper_development.count | STARTED | {"count"=>"brands", "query"=>{}}
+MONGODB | localhost:27017 | eshopper_development.count | SUCCEEDED | 0.011232s
+  Rendered brand/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 950ms (Views: 931.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-17 08:20:42 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+  Rendered brand/index.html.erb within layouts/application (31160.6ms)
+Completed 500 Internal Server Error in 31364ms
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x81234036 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    16:     </tr>
+    17:   </thead>
+    18:   <tbody>
+    19:     <% if @brand.size == 0 %>
+    20:       <tr>
+    21:         <td colspan="6">No people found.</td>
+    22:       </tr>
+  
+app/views/brand/index.html.erb:19:in `_app_views_brand_index_html_erb___37232927_35161848'
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-17 08:25:46 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | localhost:27017 | eshopper_development.count | STARTED | {"count"=>"brands", "query"=>{}}
+MONGODB | localhost:27017 | eshopper_development.count | SUCCEEDED | 0.013033s
+  Rendered brand/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 1183ms (Views: 1166.2ms)
+
+
+Started GET "/brand/new" for 127.0.0.1 at 2017-07-17 08:26:26 -0400
+Processing by BrandController#new as HTML
+  Rendering brand/new.html.erb within layouts/application
+  Rendered brand/_form.html.erb (124.4ms)
+  Rendered brand/new.html.erb within layouts/application (149.4ms)
+Completed 500 Internal Server Error in 237ms
+
+
+  
+ActionView::Template::Error (undefined method `brands_path' for #<#<Class:0x99f7aa0>:0xbef2228>
+Did you mean?  brand_path):
+    1: <%= form_for @brand do |f| %>
+    2:   <div class="form-group">
+    3:     <%= f.label :name %>
+    4:     <%= f.text_field :name, class: "form-control" %>
+  
+app/views/brand/_form.html.erb:1:in `_app_views_brand__form_html_erb__224851120_100126716'
+app/views/brand/new.html.erb:3:in `_app_views_brand_new_html_erb__992348754_100111392'
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-17 08:26:32 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | localhost:27017 | eshopper_development.count | STARTED | {"count"=>"brands", "query"=>{}}
+MONGODB | localhost:27017 | eshopper_development.count | SUCCEEDED | 0.012008s
+  Rendered brand/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 118ms (Views: 100.7ms)
+
+
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-17 08:49:33 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+  Rendered brand/index.html.erb within layouts/application (29117.3ms)
+Completed   in 29323ms
+
+
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-17 09:30:28 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | eshopper_development.count | STARTED | {"count"=>"brands", "query"=>{}}
+MONGODB | localhost:27017 | eshopper_development.count | SUCCEEDED | 0.012207s
+  Rendered brand/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 714ms (Views: 673.0ms)
+
+
+MONGODB | An existing connection was forcibly closed by the remote host.
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'unknown'.
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | An existing connection was forcibly closed by the remote host.
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'unknown'.
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | An existing connection was forcibly closed by the remote host.
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'unknown'.
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-17 09:38:36 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | localhost:27017 | eshopper_development.count | STARTED | {"count"=>"brands", "query"=>{}}
+MONGODB | localhost:27017 | eshopper_development.count | FAILED | An existing connection was forcibly closed by the remote host. | 0.000506s
+Retry due to: Mongo::Error::SocketError An existing connection was forcibly closed by the remote host.
+MONGODB | localhost:27017 | eshopper_development.count | STARTED | {"count"=>"brands", "query"=>{}}
+MONGODB | localhost:27017 | eshopper_development.count | SUCCEEDED | 0.012008s
+  Rendered brand/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 121ms (Views: 104.0ms)
+
+
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-17 09:48:58 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | localhost:27017 | eshopper_development.count | STARTED | {"count"=>"brands", "query"=>{}}
+MONGODB | localhost:27017 | eshopper_development.count | SUCCEEDED | 0.0s
+  Rendered brand/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 101ms (Views: 83.8ms)
+
+
+MONGODB | An existing connection was forcibly closed by the remote host.
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'unknown'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+Started GET "/" for 127.0.0.1 at 2017-07-19 08:39:00 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-19 08:39:05 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+  Rendered brand/index.html.erb within layouts/application (50093.2ms)
+Completed 500 Internal Server Error in 50319ms
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x84914868 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    16:     </tr>
+    17:   </thead>
+    18:   <tbody>
+    19:     <% if @brand.size == 0 %>
+    20:       <tr>
+    21:         <td colspan="6">No people found.</td>
+    22:       </tr>
+  
+app/views/brand/index.html.erb:19:in `_app_views_brand_index_html_erb__326048499_56397240'
+MONGODB | Took more than 10 seconds to receive data.
+  Rendered brand/index.html.erb within layouts/application (55178.2ms)
+Completed 500 Internal Server Error in 55247ms
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x84913452 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    16:     </tr>
+    17:   </thead>
+    18:   <tbody>
+    19:     <% if @brand.size == 0 %>
+    20:       <tr>
+    21:         <td colspan="6">No people found.</td>
+    22:       </tr>
+  
+app/views/brand/index.html.erb:19:in `_app_views_brand_index_html_erb__326048499_59147364'
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-19 08:47:22 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+  Rendered brand/index.html.erb within layouts/application (38679.0ms)
+Completed 500 Internal Server Error in 38747ms
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x58919868 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    16:     </tr>
+    17:   </thead>
+    18:   <tbody>
+    19:     <% if @brand.size == 0 %>
+    20:       <tr>
+    21:         <td colspan="6">No people found.</td>
+    22:       </tr>
+  
+app/views/brand/index.html.erb:19:in `_app_views_brand_index_html_erb__326048499_82439520'
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+MONGODB | Took more than 10 seconds to receive data.
+Started GET "/brand/index" for 127.0.0.1 at 2017-07-19 09:10:44 -0400
+Processing by BrandController#index as HTML
+  Rendering brand/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | eshopper_development.count | STARTED | {"count"=>"brands", "query"=>{}}
+MONGODB | localhost:27017 | eshopper_development.count | SUCCEEDED | 0.012007s
+  Rendered brand/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 970ms (Views: 931.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 10:43:07 -0400
+Processing by AboutusController#index as HTML
+  Rendering aboutus/index.html.erb within layouts/application
+  Rendered aboutus/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 1182ms (Views: 1157.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 10:45:12 -0400
+Processing by AboutusController#index as HTML
+  Rendering aboutus/index.html.erb within layouts/application
+  Rendered aboutus/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 86.6ms)
+
+
+Started GET "/images/aboutus/aboutusbanner.png" for 127.0.0.1 at 2017-07-20 10:45:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/aboutus/aboutusbanner.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-20 10:48:49 -0400
+Processing by AboutusController#index as HTML
+  Rendering aboutus/index.html.erb within layouts/application
+  Rendered aboutus/index.html.erb within layouts/application (21.0ms)
+Completed 500 Internal Server Error in 92ms
+
+
+  
+ActionView::Template::Error (The asset "aboutusbanner.png" is not present in the asset pipeline.):
+    1: <section id="advertisement">
+    2:         <div class="container">
+    3:             # <img src="images/aboutus/aboutusbanner.png" alt="" />
+    4:             <%= image_tag("aboutusbanner.png", :alt => "aboutus image") %>
+    5:         </div>
+    6:     </section>
+    7: 
+  
+app/views/aboutus/index.html.erb:4:in `_app_views_aboutus_index_html_erb___89071809_55861224'
+Started GET "/" for 127.0.0.1 at 2017-07-20 10:51:57 -0400
+Processing by AboutusController#index as HTML
+  Rendering aboutus/index.html.erb within layouts/application
+  Rendered aboutus/index.html.erb within layouts/application (21.5ms)
+Completed 500 Internal Server Error in 91ms
+
+
+  
+ActionView::Template::Error (The asset "aboutusbanner.png" is not present in the asset pipeline.):
+    1: <section id="advertisement">
+    2:         <div class="container">
+    3:             # <img src="images/aboutus/aboutusbanner.png" alt="" />
+    4:             <%= image_tag("aboutusbanner.png", :alt => "aboutus image") %>
+    5:         </div>
+    6:     </section>
+    7: 
+  
+app/views/aboutus/index.html.erb:4:in `_app_views_aboutus_index_html_erb___89071809_96236976'
+Started GET "/" for 127.0.0.1 at 2017-07-20 10:52:33 -0400
+Processing by AboutusController#index as HTML
+  Rendering aboutus/index.html.erb within layouts/application
+  Rendered aboutus/index.html.erb within layouts/application (20.5ms)
+Completed 500 Internal Server Error in 89ms
+
+
+  
+ActionView::Template::Error (The asset "aboutusbanner.png" is not present in the asset pipeline.):
+    1: <section id="advertisement">
+    2:         <div class="container">
+    3:              <img src="assets/aboutus/aboutusbanner.png" alt="" />
+    4:             #<%= image_tag("aboutusbanner.png", :alt => "aboutus image") %>
+    5:         </div>
+    6:     </section>
+    7: 
+  
+app/views/aboutus/index.html.erb:4:in `_app_views_aboutus_index_html_erb___89071809_102714996'
+Started GET "/" for 127.0.0.1 at 2017-07-20 10:52:54 -0400
+Processing by AboutusController#index as HTML
+  Rendering aboutus/index.html.erb within layouts/application
+  Rendered aboutus/index.html.erb within layouts/application (20.5ms)
+Completed 500 Internal Server Error in 90ms
+
+
+  
+ActionView::Template::Error (The asset "aboutusbanner.png" is not present in the asset pipeline.):
+    1: <section id="advertisement">
+    2:         <div class="container">
+    3:              <img src="aboutus/aboutusbanner.png" alt="" />
+    4:             #<%= image_tag("aboutusbanner.png", :alt => "aboutus image") %>
+    5:         </div>
+    6:     </section>
+    7: 
+  
+app/views/aboutus/index.html.erb:4:in `_app_views_aboutus_index_html_erb___89071809_93594384'
+Started GET "/" for 127.0.0.1 at 2017-07-20 10:53:48 -0400
+Processing by AboutusController#index as HTML
+  Rendering aboutus/index.html.erb within layouts/application
+  Rendered aboutus/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 194ms (Views: 174.8ms)
+
+
+Started GET "/aboutus/aboutusbanner.png" for 127.0.0.1 at 2017-07-20 10:53:48 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/aboutus/aboutusbanner.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-20 10:56:53 -0400
+Processing by AboutusController#index as HTML
+  Rendering aboutus/index.html.erb within layouts/application
+  Rendered aboutus/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 90.3ms)
+
+
+Started GET "/aboutus/aboutusbanner.png" for 127.0.0.1 at 2017-07-20 10:56:53 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/aboutus/aboutusbanner.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-20 10:57:39 -0400
+Processing by AboutusController#index as HTML
+  Rendering aboutus/index.html.erb within layouts/application
+  Rendered aboutus/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 95.1ms)
+
+
+Started GET "/images/aboutus/aboutusbanner.png" for 127.0.0.1 at 2017-07-20 10:57:39 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/aboutus/aboutusbanner.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/aboutus/aboutusbanner.png" for 127.0.0.1 at 2017-07-20 10:57:56 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/aboutus/aboutusbanner.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-20 10:59:30 -0400
+Processing by AboutusController#index as HTML
+  Rendering aboutus/index.html.erb within layouts/application
+  Rendered aboutus/index.html.erb within layouts/application (20.0ms)
+Completed 500 Internal Server Error in 90ms
+
+
+  
+ActionView::Template::Error (The asset "aboutusbanner.png" is not present in the asset pipeline.):
+    1: <section id="advertisement">
+    2:         <div class="container">
+    3:             
+    4:              <%= image_tag("aboutusbanner.png", :alt => "aboutus image") %>
+    5:             
+    6:         </div>
+    7:     </section>
+  
+app/views/aboutus/index.html.erb:4:in `_app_views_aboutus_index_html_erb___89071809_95162388'
+Started GET "/" for 127.0.0.1 at 2017-07-20 10:59:58 -0400
+Processing by AboutusController#index as HTML
+  Rendering aboutus/index.html.erb within layouts/application
+  Rendered aboutus/index.html.erb within layouts/application (76.1ms)
+Completed 200 OK in 192ms (Views: 175.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-20 11:21:55 -0400
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 605ms (Views: 580.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-21 10:18:56 -0400
+Processing by LoginController#index as HTML
+  Rendering login/index.html.erb within layouts/application
+  Rendered login/index.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 1454ms (Views: 1430.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-21 10:43:33 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 748ms (Views: 707.7ms)
+
+
+Started GET "/images/shop/advertisement.jpg" for 127.0.0.1 at 2017-07-21 10:43:44 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/advertisement.jpg"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/home/shipping.jpg" for 127.0.0.1 at 2017-07-21 10:43:45 -0400
+Started GET "/images/shop/product12.jpg" for 127.0.0.1 at 2017-07-21 10:43:45 -0400
+  
+Started GET "/images/shop/product11.jpg" for 127.0.0.1 at 2017-07-21 10:43:45 -0400
+Started GET "/images/shop/product10.jpg" for 127.0.0.1 at 2017-07-21 10:43:45 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/shipping.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/product12.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/product11.jpg"):
+ActionController::RoutingError (No route matches [GET] "/images/shop/product10.jpg"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/home/new.png" for 127.0.0.1 at 2017-07-21 10:44:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/new.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/home/sale.png" for 127.0.0.1 at 2017-07-21 10:44:04 -0400
+Started GET "/images/shop/product8.jpg" for 127.0.0.1 at 2017-07-21 10:44:04 -0400
+Started GET "/images/home/product6.jpg" for 127.0.0.1 at 2017-07-21 10:44:04 -0400
+Started GET "/images/shop/product7.jpg" for 127.0.0.1 at 2017-07-21 10:44:04 -0400
+  
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/sale.png"):
+ActionController::RoutingError (No route matches [GET] "/images/shop/product8.jpg"):
+ActionController::RoutingError (No route matches [GET] "/images/home/product6.jpg"):
+ActionController::RoutingError (No route matches [GET] "/images/shop/product7.jpg"):
+  
+  
+  
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/home/product5.jpg" for 127.0.0.1 at 2017-07-21 10:44:20 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/product5.jpg"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/home/product4.jpg" for 127.0.0.1 at 2017-07-21 10:44:23 -0400
+Started GET "/images/home/product3.jpg" for 127.0.0.1 at 2017-07-21 10:44:23 -0400
+  
+  
+Started GET "/images/home/product2.jpg" for 127.0.0.1 at 2017-07-21 10:44:23 -0400
+ActionController::RoutingError (No route matches [GET] "/images/home/product4.jpg"):
+ActionController::RoutingError (No route matches [GET] "/images/home/product3.jpg"):
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/product2.jpg"):
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+Started GET "/images/home/product1.jpg" for 127.0.0.1 at 2017-07-21 10:44:23 -0400
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/product1.jpg"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/shop/product9.jpg" for 127.0.0.1 at 2017-07-21 10:44:37 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/product9.jpg"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-21 10:47:50 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 115ms (Views: 96.9ms)
+
+
+Started GET "/images/shop/product12.jpg" for 127.0.0.1 at 2017-07-21 10:47:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/product12.jpg"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/shop/product11.jpg" for 127.0.0.1 at 2017-07-21 10:47:51 -0400
+Started GET "/images/home/sale.png" for 127.0.0.1 at 2017-07-21 10:47:51 -0400
+Started GET "/images/shop/product7.jpg" for 127.0.0.1 at 2017-07-21 10:47:51 -0400
+  
+Started GET "/images/shop/product10.jpg" for 127.0.0.1 at 2017-07-21 10:47:51 -0400
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/product11.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/sale.png"):
+ActionController::RoutingError (No route matches [GET] "/images/shop/product7.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/product10.jpg"):
+  
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/home/new.png" for 127.0.0.1 at 2017-07-21 10:47:54 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/new.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/shop/product8.jpg" for 127.0.0.1 at 2017-07-21 10:48:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/product8.jpg"):
+  
+Started GET "/images/home/product6.jpg" for 127.0.0.1 at 2017-07-21 10:48:10 -0400
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/home/product5.jpg" for 127.0.0.1 at 2017-07-21 10:48:10 -0400
+Started GET "/images/home/product4.jpg" for 127.0.0.1 at 2017-07-21 10:48:11 -0400
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/product6.jpg"):
+ActionController::RoutingError (No route matches [GET] "/images/home/product5.jpg"):
+ActionController::RoutingError (No route matches [GET] "/images/home/product4.jpg"):
+  
+  
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/home/product3.jpg" for 127.0.0.1 at 2017-07-21 10:48:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/product3.jpg"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-21 10:48:25 -0400
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  Rendered products/index.html.erb within layouts/application (1.0ms)
+Started GET "/images/home/product2.jpg" for 127.0.0.1 at 2017-07-21 10:48:32 -0400
+Started GET "/images/home/product1.jpg" for 127.0.0.1 at 2017-07-21 10:48:32 -0400
+  
+Started GET "/images/shop/product9.jpg" for 127.0.0.1 at 2017-07-21 10:48:32 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/product2.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/product1.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/product9.jpg"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Completed 200 OK in 7443ms (Views: 7050.0ms)
+
+
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/shop/product12.jpg" for 127.0.0.1 at 2017-07-21 10:48:34 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/product12.jpg"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/shop/product11.jpg" for 127.0.0.1 at 2017-07-21 10:48:34 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/product11.jpg"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/images/shop/product10.jpg" for 127.0.0.1 at 2017-07-21 10:48:48 -0400
+Started GET "/images/home/sale.png" for 127.0.0.1 at 2017-07-21 10:48:54 -0400
+Started GET "/images/home/new.png" for 127.0.0.1 at 2017-07-21 10:48:54 -0400
+Started GET "/images/shop/product7.jpg" for 127.0.0.1 at 2017-07-21 10:48:54 -0400
+  
+Started GET "/images/shop/product8.jpg" for 127.0.0.1 at 2017-07-21 10:48:54 -0400
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/product10.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/images/home/sale.png"):
+ActionController::RoutingError (No route matches [GET] "/images/home/new.png"):
+ActionController::RoutingError (No route matches [GET] "/images/shop/product7.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/images/shop/product8.jpg"):
+  
+  
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
