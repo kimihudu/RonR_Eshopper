@@ -16,6 +16,21 @@ require "rails/test_unit/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+# <link href="{{asset('theme/css/bootstrap.min.css')}}" rel="stylesheet">
+#         <link href="{{asset('theme/css/font-awesome.min.css')}}" rel="stylesheet">
+#         <link href="{{asset('theme/css/prettyPhoto.css')}}" rel="stylesheet">
+#         <link href="{{asset('theme/css/price-range.css')}}" rel="stylesheet">
+#         <link href="{{asset('theme/css/animate.css')}}" rel="stylesheet">
+#         <link href="{{asset('theme/css/main.css')}}" rel="stylesheet">
+#         <link href="{{asset('theme/css/responsive.css')}}" rel="stylesheet">
+#         <link href="{{asset('theme/css/jquery-ui.css')}}" rel="stylesheet">
+#         <link href="{{asset('theme/css/reset.css')}}" rel="stylesheet">
+#         <link href="{{asset('theme/css/Cart.css')}}" rel="stylesheet">
+#         <link href="{{asset('theme/css/wish-list.css')}}" rel="stylesheet">
+
+
+
+
 module Eshopper
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.

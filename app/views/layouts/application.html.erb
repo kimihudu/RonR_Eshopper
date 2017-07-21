@@ -1,14 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name=>
     <title>Eshopper</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    # <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag '/assets/css/bootstrap.min.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/prettyPhoto.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/price-range.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/animate.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/main.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/reponsive.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/jquery-ui.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/reset.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/cart.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/wish-list.css', media: 'all'%>
+
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag '/assets/js/jquery.js', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag '/assets/js/jquerybootstrap.min.js', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag '/assets/js/jquery-ui.js', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag '/assets/js/js.js', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag '/assets/js/jPages.js', 'data-turbolinks-track': 'reload' %>
+
+
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{url('../')}}/theme/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{url('../')}}/theme/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{url('../')}}/theme/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="{{url('../')}}/theme/images/ico/apple-touch-icon-57-precomposed.png">
+
+
   </head>
 
   <body>
-    <%= yield %>
+  <header>
+    <%= render :partial => 'share/header'%>
+  </header>
+
+  <section id="slider">
+    <%= render :partial => 'share/slider'%>
+  </section>
+
+  <section>
+    <div class="container">
+      <%= yield%>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <%= render :partial => 'share/footer'%>
+  </footer>
+
+
   </body>
+
+  <%= javascript_include_tag '/assets/js/price-range.js', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag '/assets/js/jquery.prettyPhoto.js', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag '/assets/js/main.js', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag '/assets/js/wish-list.js', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag '/assets/js/cart.js', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag '/assets/js/cart-checkout.js', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag '/assets/js/searchbox.js', 'data-turbolinks-track': 'reload' %>
 </html>
