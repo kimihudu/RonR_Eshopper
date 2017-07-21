@@ -1,20 +1,11 @@
 Rails.application.routes.draw do
+  root to: 'home#index'
 
-  resources :brand, except: [:show]
-
-  get 'brand/index'
-
-  get 'brand/new'
-
-  get 'brand/create'
-
-  get 'brand/edit'
-
-  get 'brand/update'
-
-  get 'brand/destroy'
-
-  root to: "brand#index"
+  # resources :checkout
+  # resources :home
+  # resources :products
+  # resources :product_detail
+  # resources :auth
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
