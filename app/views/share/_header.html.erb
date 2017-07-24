@@ -100,7 +100,10 @@
                                     </ul>
                                 </li>
                                 <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="contact-us.html">Contact</a></li>
+                                <li>
+                                    <!-- <a href="contact-us.html">Contact</a> -->
+                                    <%= link_to "contact", :controller => "contact",:action => "index", :id=>"" %>
+                                </li>
                             </ul>
                         </div>
                     </div>
