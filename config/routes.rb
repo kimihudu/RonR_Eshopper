@@ -1,11 +1,51 @@
 Rails.application.routes.draw do
-  get 'admin/index'
+  # namespace :admin do
+  #   get 'product/index'
+  # end
 
-  get 'admin/edit'
+  # namespace :admin do
+  #   get 'product/show'
+  # end
 
-  get 'admin/delete'
+  # namespace :admin do
+  #   get 'product/edit'
+  # end
 
-  get 'admin/new'
+  # namespace :admin do
+  #   get 'product/delete'
+  # end
+
+  # namespace :admin do
+  #   get 'product/new'
+  # end
+
+  # namespace :admin do
+  #   get 'category/index'
+  # end
+
+  # namespace :admin do
+  #   get 'category/show'
+  # end
+
+  # namespace :admin do
+  #   get 'category/edit'
+  # end
+
+  # namespace :admin do
+  #   get 'category/delete'
+  # end
+
+  # namespace :admin do
+  #   get 'category/new'
+  # end
+
+  # get 'admin/index'
+
+  # get 'admin/edit'
+
+  # get 'admin/delete'
+
+  # get 'admin/new'
 
   root to: 'home#index'
  
