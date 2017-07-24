@@ -33162,6 +33162,18 @@ puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 <<<<<<< HEAD
+Started GET "/contact/" for 127.0.0.1 at 2017-07-21 11:29:00 -0400
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.0ms)
+Completed 200 OK in 429ms (Views: 393.2ms)
+
+
+  
+=======
+<<<<<<< HEAD
 =======
 >>>>>>> 5af2488964406be1b162f19c468729061b3aaba6
 Started GET "/" for 127.0.0.1 at 2017-07-22 10:27:38 -0400
@@ -33212,6 +33224,7 @@ puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 ActionController::RoutingError (No route matches [GET] "/assets/js/jquerybootstrap.min.js"):
   
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
@@ -33247,7 +33260,11 @@ puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   
+<<<<<<< HEAD
+ActionController::RoutingError (No route matches [GET] "/assets/css/reponsive.css"):
+=======
 ActionController::RoutingError (No route matches [GET] "/assets/js/jquerybootstrap.min.js"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -33281,9 +33298,15 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/contact/images/home/logo.png" for 127.0.0.1 at 2017-07-21 11:29:06 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/logo.png"):
+=======
 Started GET "/%7B%7Basset('theme/images/home/shipping.jpg')%7D%7D" for 127.0.0.1 at 2017-07-22 10:27:40 -0400
   
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/shipping.jpg')%7D%7D"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -33312,18 +33335,32 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/contact/images/home/iframe1.png" for 127.0.0.1 at 2017-07-21 11:29:08 -0400
+Started GET "/contact/images/home/map.png" for 127.0.0.1 at 2017-07-21 11:29:08 -0400
+Started GET "/contact/images/home/iframe4.png" for 127.0.0.1 at 2017-07-21 11:29:08 -0400
+Started GET "/home/iframe2.png" for 127.0.0.1 at 2017-07-21 11:29:08 -0400
+=======
 Started GET "/%7B%7B$prod%20-%3E%20img%7D%7D" for 127.0.0.1 at 2017-07-22 10:27:40 -0400
 Started GET "/%7B%7Basset('theme/images/home/gallery2.jpg')%7D%7D" for 127.0.0.1 at 2017-07-22 10:27:40 -0400
 Started GET "/%7B%7Basset('theme/images/home/gallery4.jpg')%7D%7D" for 127.0.0.1 at 2017-07-22 10:27:40 -0400
 Started GET "/%7B%7Basset('theme/images/home/gallery3.jpg')%7D%7D" for 127.0.0.1 at 2017-07-22 10:27:40 -0400
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
   
   
   
+<<<<<<< HEAD
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/iframe1.png"):
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/map.png"):
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/iframe4.png"):
+ActionController::RoutingError (No route matches [GET] "/home/iframe2.png"):
+=======
 ActionController::RoutingError (No route matches [GET] "/%7B%7B$prod%20-%3E%20img%7D%7D"):
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/gallery2.jpg')%7D%7D"):
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/gallery4.jpg')%7D%7D"):
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/gallery3.jpg')%7D%7D"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
   
   
@@ -33437,7 +33474,11 @@ puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   
+<<<<<<< HEAD
+ActionController::RoutingError (No route matches [GET] "/assets/js/jquerybootstrap.min.js"):
+=======
 ActionController::RoutingError (No route matches [GET] "/assets/fonts/glyphicons-halflings-regular.woff"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -33471,9 +33512,15 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/contact/images/home/iframe3.png" for 127.0.0.1 at 2017-07-21 11:29:26 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/iframe3.png"):
+=======
 Started GET "/%7B%7Basset('theme/images/home/gallery1.jpg')%7D%7D" for 127.0.0.1 at 2017-07-22 10:27:42 -0400
   
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/gallery1.jpg')%7D%7D"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -33502,6 +33549,22 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/contact/images/home/logo.png" for 127.0.0.1 at 2017-07-21 11:29:30 -0400
+Started GET "/contact/images/home/iframe4.png" for 127.0.0.1 at 2017-07-21 11:29:30 -0400
+Started GET "/contact/images/home/iframe1.png" for 127.0.0.1 at 2017-07-21 11:29:30 -0400
+  
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/glyphicons-halflings-regular.woff"):
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/logo.png"):
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/iframe4.png"):
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/iframe1.png"):
+  
+  
+  
+=======
 Started GET "/home/iframe2.png" for 127.0.0.1 at 2017-07-22 10:27:42 -0400
   
 ActionController::RoutingError (No route matches [GET] "/home/iframe2.png"):
@@ -33535,6 +33598,7 @@ puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   
 ActionController::RoutingError (No route matches [GET] "/assets/fonts/glyphicons-halflings-regular.ttf"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -33568,9 +33632,12 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
   
 ActionController::RoutingError (No route matches [GET] "/assets/css/reponsive.css"):
   
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -33583,12 +33650,16 @@ activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagge
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
 railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+<<<<<<< HEAD
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+=======
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
 activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
 activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
 activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
 activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
 actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
 rack (2.0.3) lib/rack/method_override.rb:22:in `call'
@@ -33603,6 +33674,8 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 Started GET "/" for 127.0.0.1 at 2017-07-22 16:56:21 -0400
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/application
@@ -33621,6 +33694,7 @@ ActionController::RoutingError (No route matches [GET] "/assets/css/reponsive.cs
 ActionController::RoutingError (No route matches [GET] "/assets/js/jquerybootstrap.min.js"):
   
   
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -33633,12 +33707,16 @@ activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagge
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
 railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+<<<<<<< HEAD
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+=======
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
 activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
 activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
 activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
 activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
 actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
 rack (2.0.3) lib/rack/method_override.rb:22:in `call'
@@ -33665,12 +33743,16 @@ activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagge
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
 railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+<<<<<<< HEAD
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+=======
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
 activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
 activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
 activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
 activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
 actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
 rack (2.0.3) lib/rack/method_override.rb:22:in `call'
@@ -33685,9 +33767,15 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/contact/images/home/map.png" for 127.0.0.1 at 2017-07-21 11:29:33 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/map.png"):
+=======
 Started GET "/%7B%7Basset('theme/images/home/shipping.jpg')%7D%7D" for 127.0.0.1 at 2017-07-22 16:56:21 -0400
   
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/shipping.jpg')%7D%7D"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -33716,6 +33804,13 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/home/iframe2.png" for 127.0.0.1 at 2017-07-21 11:29:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/home/iframe2.png"):
+  
+  
+=======
 Started GET "/%7B%7B$prod%20-%3E%20img%7D%7D" for 127.0.0.1 at 2017-07-22 16:56:22 -0400
   
 ActionController::RoutingError (No route matches [GET] "/%7B%7B$prod%20-%3E%20img%7D%7D"):
@@ -33724,6 +33819,7 @@ Started GET "/%7B%7Basset('theme/images/home/gallery1.jpg')%7D%7D" for 127.0.0.1
 Started GET "/%7B%7Basset('theme/images/home/gallery2.jpg')%7D%7D" for 127.0.0.1 at 2017-07-22 16:56:22 -0400
   
 Started GET "/%7B%7Basset('theme/images/home/gallery4.jpg')%7D%7D" for 127.0.0.1 at 2017-07-22 16:56:22 -0400
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -33751,12 +33847,16 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/glyphicons-halflings-regular.ttf"):
+=======
   
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/gallery1.jpg')%7D%7D"):
   
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/gallery2.jpg')%7D%7D"):
   
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/gallery4.jpg')%7D%7D"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -33770,7 +33870,16 @@ activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagge
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
 railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+<<<<<<< HEAD
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+=======
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
 actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
 rack (2.0.3) lib/rack/method_override.rb:22:in `call'
@@ -33785,6 +33894,20 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/contact/" for 127.0.0.1 at 2017-07-21 11:30:41 -0400
+Processing by ContactController#index as HTML
+  Rendering contact/index.html.erb within layouts/application
+  Rendered contact/index.html.erb within layouts/application (2.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.0ms)
+Completed 200 OK in 138ms (Views: 124.6ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/css/reponsive.css"):
+=======
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -33798,7 +33921,16 @@ activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagge
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
 railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+<<<<<<< HEAD
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+=======
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
 actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
 rack (2.0.3) lib/rack/method_override.rb:22:in `call'
@@ -33813,7 +33945,14 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/contact/images/home/logo.png" for 127.0.0.1 at 2017-07-21 11:30:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/logo.png"):
+  
+=======
 Started GET "/home/iframe2.png" for 127.0.0.1 at 2017-07-22 16:56:22 -0400
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -33841,9 +33980,30 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/contact/images/home/iframe3.png" for 127.0.0.1 at 2017-07-21 11:30:48 -0400
+Started GET "/contact/images/home/iframe4.png" for 127.0.0.1 at 2017-07-21 11:30:48 -0400
+Started GET "/contact/images/home/map.png" for 127.0.0.1 at 2017-07-21 11:30:48 -0400
+  
+Started GET "/contact/images/home/iframe1.png" for 127.0.0.1 at 2017-07-21 11:30:48 -0400
+Started GET "/home/iframe2.png" for 127.0.0.1 at 2017-07-21 11:30:48 -0400
+  
+  
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/iframe3.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/iframe4.png"):
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/map.png"):
+  
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/iframe1.png"):
+ActionController::RoutingError (No route matches [GET] "/home/iframe2.png"):
+  
+  
+=======
   
 ActionController::RoutingError (No route matches [GET] "/home/iframe2.png"):
   
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -33871,9 +34031,13 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+  
+=======
 Started GET "/%7B%7Basset('theme/images/home/gallery3.jpg')%7D%7D" for 127.0.0.1 at 2017-07-22 16:56:23 -0400
   
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/gallery3.jpg')%7D%7D"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -33902,6 +34066,8 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 Started GET "/" for 127.0.0.1 at 2017-07-23 00:58:37 -0400
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/application
@@ -33919,6 +34085,7 @@ ActionController::RoutingError (No route matches [GET] "/assets/css/reponsive.cs
   
   
 ActionController::RoutingError (No route matches [GET] "/assets/js/jquerybootstrap.min.js"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -33931,12 +34098,16 @@ activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagge
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
 railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+<<<<<<< HEAD
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+=======
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
 activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
 activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
 activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
 activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
 actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
 rack (2.0.3) lib/rack/method_override.rb:22:in `call'
@@ -33951,7 +34122,10 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
   
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -33964,12 +34138,16 @@ activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagge
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
 railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+<<<<<<< HEAD
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+=======
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
 activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
 activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
 activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
 activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
 actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
 rack (2.0.3) lib/rack/method_override.rb:22:in `call'
@@ -33984,10 +34162,13 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 Started GET "/%7B%7Basset('theme/images/home/shipping.jpg')%7D%7D" for 127.0.0.1 at 2017-07-23 00:58:37 -0400
   
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/shipping.jpg')%7D%7D"):
   
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -34016,7 +34197,11 @@ puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   
+<<<<<<< HEAD
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/glyphicons-halflings-regular.woff"):
+=======
 ActionController::RoutingError (No route matches [GET] "/assets/js/jquerybootstrap.min.js"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -34050,9 +34235,15 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/contact/images/home/logo.png" for 127.0.0.1 at 2017-07-21 11:31:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/contact/images/home/logo.png"):
+=======
 Started GET "/%7B%7B$prod%20-%3E%20img%7D%7D" for 127.0.0.1 at 2017-07-23 00:58:38 -0400
   
 ActionController::RoutingError (No route matches [GET] "/%7B%7B$prod%20-%3E%20img%7D%7D"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
   
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
@@ -34081,6 +34272,11 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/glyphicons-halflings-regular.ttf"):
+  
+=======
 Started GET "/%7B%7Basset('theme/images/home/gallery1.jpg')%7D%7D" for 127.0.0.1 at 2017-07-23 00:58:38 -0400
   
 Started GET "/%7B%7Basset('theme/images/home/gallery4.jpg')%7D%7D" for 127.0.0.1 at 2017-07-23 00:58:38 -0400
@@ -34091,6 +34287,7 @@ ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/imag
   
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/gallery4.jpg')%7D%7D"):
 ActionController::RoutingError (No route matches [GET] "/%7B%7Basset('theme/images/home/gallery3.jpg')%7D%7D"):
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
@@ -34103,6 +34300,14 @@ activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagge
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
 railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+<<<<<<< HEAD
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+=======
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
 actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
 actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
@@ -36477,6 +36682,7 @@ activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
 activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
 railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
 sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
 actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
 actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
 rack (2.0.3) lib/rack/method_override.rb:22:in `call'
@@ -36491,8 +36697,11 @@ puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
 puma (3.9.1) lib/puma/server.rb:435:in `process_client'
 puma (3.9.1) lib/puma/server.rb:299:in `block in run'
 puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> acb6cc6aa04d85149988b57189e061df268c9fe6
+<<<<<<< HEAD
 Started GET "/" for 127.0.0.1 at 2017-07-24 09:26:35 -0400
 Processing by HomeController#index as HTML
   Rendering home/index.html.erb within layouts/application
@@ -43390,3 +43599,6 @@ Processing by ContactController#show as HTML
 Completed 200 OK in 37ms (Views: 35.8ms)
 
 
+=======
+>>>>>>> f5b9ed94d14e2d4412a319acee372d93e6c6258f
+>>>>>>> 427bd8fb352aeb2e8e4350bfab3971f111879419
