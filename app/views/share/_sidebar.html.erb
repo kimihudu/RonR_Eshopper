@@ -1,38 +1,51 @@
 <div class="left-sidebar">
     <h2>Category</h2>
-    <!--/category_products-->
-    <div class="panel-group category-products" id="accordian"><!--category-productsr-->
-        @foreach($data['cats'] as $cat)
+
+    <!--category_products-->
+    <div class="panel-group category-products" id="accordian">
+        <% @categories.each do |cat| %>
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordian" href="#{{$cat-&gt;name}}">
-                            {{-- cat-name --}}
-                            {{$cat-&gt;name}}
+                        <a data-toggle="collapse" data-parent="#accordian" href="#<%= cat.name %>">
+                           <%= cat.name%>
                             <span class="badge pull-right"><i class="fa fa-plus"></i></span>
                         </a>
                     </h4>
                 </div>
-                <div id="{{$cat->name}}" class="panel-collapse collapse">
+            <% if cat.sub_cat.length > 0%>
+                <div id="<%= cat.name %>" class="panel-collapse collapse">
                     <div class="panel-body">
                         <ul>
-                        ?&gt;
+                        <% cat.sub_cat.each do |s_c| %>
+                            <li>
+                                <a href="#prods">
+                                    <%= s_c["name"] %>
+                                </a>
+                            </li>
+                        <% end %>
                         </ul>
                     </div>
                 </div>
+            <% end %>
             </div>
-        @endforeach
-        </div>
-        <!--/category_products-->
+        <% end %>
+    </div>
+    <!--/category_products-->
 
         <!--brands_products-->
         <div class="brands_products">
             <h2>Brands</h2>
             <div class="brands-name">
                 <ul class="nav nav-pills nav-stacked">
-                @foreach($data['brands'] as $brand)
-                    <li><a href="#prods"> <span class="pull-right">{{$brand-&gt;qTy}}</span>{{$brand-&gt;name}}</a></li>
-                @endforeach
+                    <% @brands.each do |b| %>
+                        <li>
+                            <a href="#prods">
+                                <span class="pull-right">(<%= b.qTy %>) </span>
+                                <%= b.name %>
+                            </a>
+                        </li>
+                    <% end %>
                 </ul>
             </div>
         </div>
@@ -42,14 +55,28 @@
         <div class="price-range">
             <h2>Price Range</h2>
             <div class="well text-center">
-                <div class="slider slider-horizontal" style="width: 110px;"><div class="slider-track"><div class="slider-selection" style="left: 40%; width: 1.66667%;"></div><div class="slider-handle round left-round" style="left: 40%;"></div><div class="slider-handle round" style="left: 41.6667%;"></div></div><div class="tooltip top in" style="top: -30px; left: 11.9167px;"><div class="tooltip-arrow"></div><div class="tooltip-inner">250 : 315</div></div><input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2"></div><br>
+                <div class="slider slider-horizontal" style="width: 110px;">
+                    <div class="slider-track">
+                        <div class="slider-selection" style="left: 40%; width: 1.66667%;"></div>
+                        <div class="slider-handle round left-round" style="left: 40%;"></div>
+                        <div class="slider-handle round" style="left: 41.6667%;"></div>
+                    </div>
+                    <div class="tooltip top in" style="top: -30px; left: 11.9167px;">
+                        <div class="tooltip-arrow"></div>
+                        <div class="tooltip-inner">250 : 315</div>
+                    </div>
+                    <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2">
+                </div>
+                <br>
                 <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
             </div>
         </div>
         <!--/price-range-->
 
-        <div class="shipping text-center"><!--shipping-->
+        <!--shipping-->
+        <div class="shipping text-center">
             <img src="/images/home/shipping.jpg" alt="">
-        </div><!--/shipping-->
+        </div>
+        <!--/shipping-->
 
 </div>
