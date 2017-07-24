@@ -1,5 +1,6 @@
 <div class="left-sidebar">
     <h2>Category</h2>
+    <!--/category_products-->
     <div class="panel-group category-products" id="accordian"><!--category-productsr-->
         @foreach($data['cats'] as $cat)
             <div class="panel panel-default">
@@ -8,27 +9,6 @@
                         <a data-toggle="collapse" data-parent="#accordian" href="#{{$cat-&gt;name}}">
                             {{-- cat-name --}}
                             {{$cat-&gt;name}}
-                            <!--
-                            <?php
-                                //if(count($cat->sub_cat) < 0){
-                                    $css = `<script>
-                                            $("#`. $cat->name .`").css("display:none;");
-                                            $(".fa fa-plus").css("display:none;");
-                                            </script>`;
-                                    //  echo $css;
-                                            //print_r($css);
-                                            //var_dump("css");
-                                //}
-
-                                if(count($cat->sub_cat) < 0):
-                                print_r("test");
-                            ?>
-                                <script>
-                                    $("#{{$cat->name}}").css('display','none');
-                                    $(".fa fa-plus").css('display','none');
-                                </script>
-                            <?php endif;?>
-                            -->
                             <span class="badge pull-right"><i class="fa fa-plus"></i></span>
                         </a>
                     </h4>
@@ -36,18 +16,6 @@
                 <div id="{{$cat->name}}" class="panel-collapse collapse">
                     <div class="panel-body">
                         <ul>
-                        {{-- cat-sub --}}
-                        <!--?php
-                            if(count($cat--->sub_cat) &gt; 0){
-                                $subs = $cat-&gt;sub_cat;
-                                //issue array
-                                if(is_array($subs)){
-                                //print_r($subs[0]['name']);
-                                    for($i = 0;$i &lt; count($cat-&gt;sub_cat); $i++){
-                                        echo '<li><a data-parent="#accordian" href="#prods">'.$subs[$i]['name'].'</a></li>';
-                                    }
-                                }
-                            }
                         ?&gt;
                         </ul>
                     </div>
@@ -55,7 +23,7 @@
             </div>
         @endforeach
         </div>
-        <!--categoryproducts-->
+        <!--/category_products-->
 
         <!--brands_products-->
         <div class="brands_products">
@@ -81,7 +49,7 @@
         <!--/price-range-->
 
         <div class="shipping text-center"><!--shipping-->
-            <img src="images/home/shipping.jpg" alt="">
+            <img src="/images/home/shipping.jpg" alt="">
         </div><!--/shipping-->
 
 </div>
