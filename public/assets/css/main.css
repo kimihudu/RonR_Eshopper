@@ -1992,6 +1992,7 @@ textarea {
     color: #434343;
     font-weight: 300;
     margin-bottom: 25px;
+    font-size:14px;
 }
 
 .checkout-options .nav li {
@@ -2045,6 +2046,8 @@ textarea {
     color: #696763;
     font-size: 20px;
     font-weight: 300;
+    margin-bottom:12px;
+  
 }
 
 .shopper-info .btn-primary {
@@ -2071,6 +2074,7 @@ textarea {
     padding: 10px;
     width: 100%;
     font-weight: 300;
+    font-size: 15px;
 }
 
 .form-two>form>select {
