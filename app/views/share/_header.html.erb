@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="logo pull-left">
-                            <a href="index.php"><img src="images/home/logo.png" alt="" /></a>
+                            <a href="index.php"><img src="/images/home/logo.png" alt="" /></a>
                         </div>
                         <div class="btn-group pull-right">
                             <div class="btn-group">
@@ -100,14 +100,18 @@
                                     </ul>
                                 </li>
                                 <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="contact-us.html">Contact</a></li>
+                                <li>
+                                    <!-- <a href="contact-us.html">Contact</a> -->
+                                    <%= link_to "contact", :controller => "contact",:action => "index", :id=>"" %>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-5">
                         <div class="ui-widget search_box pull-right">
-                            <input id="tags" type="text" placeholder="Search" class="ui-autocomplete-input" autocomplete="off">
-							<i class="glyphicon glyphicon-search" style="margin-top: 10px"></i>
+                            <input id="tags" type="text" placeholder="Search" class="ui-autocomplete-input" autocomplete="off"
+                            style="font-size: 12px;">
+							<i class="fa fa-search" style="margin-top: 10px;font-size: 12px; "></i>
                         </div>
                     </div>
                 </div>
