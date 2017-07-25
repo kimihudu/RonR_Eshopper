@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root to: 'home#index'
+  get 'login/index'
+
+  root to: 'auth#login'
 
   # resources :checkout
   # resources :home
