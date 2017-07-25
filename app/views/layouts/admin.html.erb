@@ -12,13 +12,15 @@
     <%= stylesheet_link_tag '/assets/css/style-responsive.css', media: 'all'%>
 <style>
 #main-content{min-height: 550px}
-}
+
 </style>
   </head>
   <body>
-  @include('admin.admin_header')
-
-  @yield('content')
+   <%= render :partial => 'share/admin.header'%>
+ 
+ <!--@include('admin.admin_header')-->
+ 
+ @yield('content')
  <footer>
          <div class="container">
 
