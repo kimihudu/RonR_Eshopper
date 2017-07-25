@@ -27,7 +27,7 @@ $(document).ready(function() {
 
             var selectedProd = {};
             event.preventDefault();
-			
+
 			var page = $(location).attr('href');
 			if(page.search('product_details') != -1){
 				var _prod = $(this).parents('.product-details');
@@ -47,10 +47,11 @@ $(document).ready(function() {
 				selectedProd.img = _prod.children('img').attr('src');
 				selectedProd.price = _prod.children('h2').html();
 				selectedProd.name = _prod.children('p').text();
+                selectedProd.quantity = "1";
 			}
-				
 
-            
+
+
 
             addToCart(selectedProd);
         });
@@ -144,7 +145,7 @@ $(document).ready(function() {
         var cartIsEmpty = cartWrapper.hasClass('empty');
         //update cart product list
         addProduct(product);
-        //update number of items 
+        //update number of items
         updateCartCount(cartIsEmpty);
         //update total price
         updateCartTotal(product.price.replace('$', ''), true);
@@ -173,7 +174,7 @@ $(document).ready(function() {
 						<div class="quantity">
 							<label for="cd-product-4">Qty</label>
 							<span class="select">
-								<select id="cd-product-4" name="quantity">
+								<select id="cd-product-4" name="quantity" value="1">
 									<option value="1">1</option>
 									<option value="2">2</option>
 									<option value="3">3</option>
@@ -208,6 +209,7 @@ $(document).ready(function() {
         updateCartTotal(productTotPrice, false);
         updateCartCount(true, -productQuantity);
         undo.addClass('visible');
+
 
         //wait 8sec before completely remove the item
         undoTimeoutId = setTimeout(function() {

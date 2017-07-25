@@ -49,7 +49,10 @@ Rails.application.routes.draw do
 
   root to: 'home#index'
 
-
+    namespace :admin do
+      resources :categories
+      resources :products
+    end
   # resources :checkout
   # resources :home
   resources :products
