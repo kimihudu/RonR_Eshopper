@@ -72,7 +72,7 @@ $(document).ready(function() {
             });
             // store to sessionstorage
             sessionStorage.setItem('products', JSON.stringify(selectedList));
-            $(location).attr('href', 'checkout.html')
+            $(location).attr('href', 'checkout')
         });
 
         //open/close cart
