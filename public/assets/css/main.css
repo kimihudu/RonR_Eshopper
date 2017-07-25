@@ -564,6 +564,7 @@ ul.sub-menu {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     margin-left: 15px;
+    padding-bottom: 5px;
 }
 
 .footer-bottom p span a {
@@ -1548,8 +1549,8 @@ h2.title {
     border-style: solid;
     border-color: transparent transparent transparent #FE980F;
     position: absolute;
-    top: 11px;
-    left: 48px;
+    top: 8px;
+    left:49px;
 }
 
 .breadcrumbs .breadcrumb>li+li:before {
