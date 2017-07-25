@@ -49,7 +49,7 @@ Rails.application.routes.draw do
 
   # get 'admin/new'
 
-  root to: 'auth#login'
+  root to: 'product_detail#index'
 
     namespace :admin do
       resources :categories
