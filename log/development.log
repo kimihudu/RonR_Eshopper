@@ -40886,3 +40886,30 @@ Processing by ContactController#index as HTML
 Completed 200 OK in 116ms (Views: 109.1ms)
 
 
+Started GET "/checkout.html" for 127.0.0.1 at 2017-07-25 09:31:07 -0400
+Processing by CheckoutController#index as HTML
+  Rendering checkout/index.html.erb within layouts/application
+  Rendered checkout/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.0ms)
+Completed 200 OK in 121ms (Views: 108.6ms)
+
+
+Started GET "/checkout.html" for 127.0.0.1 at 2017-07-25 09:31:20 -0400
+Processing by CheckoutController#index as HTML
+  Rendering checkout/index.html.erb within layouts/application
+  Rendered checkout/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.0ms)
+Completed 200 OK in 121ms (Views: 108.5ms)
+
+
+Started GET "/checkout.html" for 127.0.0.1 at 2017-07-25 09:31:25 -0400
+Processing by CheckoutController#index as HTML
+  Rendering checkout/index.html.erb within layouts/application
+  Rendered checkout/index.html.erb within layouts/application (0.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (1.0ms)
+Completed 200 OK in 122ms (Views: 108.6ms)
+
+
