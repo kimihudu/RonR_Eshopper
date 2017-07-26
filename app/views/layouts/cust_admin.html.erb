@@ -19,8 +19,11 @@
    <%= render :partial => 'share/admin.header'%>
  
  <!--@include('admin.admin_header')-->
- 
- @yield('content')
+ <%= render :partial => 'share/admin.sidebar'%>
+  <section>
+      <%= yield%>
+  </section>
+
  <footer>
          <div class="container">
 
