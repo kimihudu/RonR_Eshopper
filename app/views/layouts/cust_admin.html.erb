@@ -1,0 +1,88 @@
+<<<<<<< HEAD:app/views/layouts/cust_admin.html.erb
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EasyShop (Admin) </title>
+    <meta charset="utf-8">
+    <%= stylesheet_link_tag '/assets/css/bootstrap.min.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/bootstrap-theme.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/elegant-icons-style.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/font-awesome.min.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/widgets.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/style.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/style-responsive.css', media: 'all'%>
+<style>
+#main-content{min-height: 550px}
+
+</style>
+  </head>
+  <body>
+   <%= render :partial => 'share/admin.header'%>
+ 
+ <!--@include('admin.admin_header')-->
+ <%= render :partial => 'share/admin.sidebar'%>
+  <section>
+      <%= yield%>
+  </section>
+
+ <footer>
+         <div class="container">
+
+            <div class="copy text-center">
+               Copyright 2017 <a href='#'>EShopper</a>
+            </div>
+
+         </div>
+</footer>
+
+<%= javascript_include_tag '/assets/js/jquery.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag '/assets/js/bootstrap.min.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag '/assets/js/jquery.scrollTo.min.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag '/assets/js/jquery.nicescroll.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag '/assets/js/scripts.js', 'data-turbolinks-track': 'reload' %>
+
+  </body>
+</html>
+=======
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EasyShop (Admin) </title>
+    <meta charset="utf-8">
+    <%= stylesheet_link_tag '/assets/css/bootstrap.min.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/bootstrap-theme.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/elegant-icons-style.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/font-awesome.min.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/widgets.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/style.css', media: 'all'%>
+    <%= stylesheet_link_tag '/assets/css/style-responsive.css', media: 'all'%>
+<style>
+#main-content{min-height: 550px}
+
+</style>
+  </head>
+  <body>
+   <%= render :partial => 'share/admin.header'%>
+ 
+ <!--@include('admin.admin_header')-->
+ 
+ @yield('content')
+ <footer>
+         <div class="container">
+
+            <div class="copy text-center">
+               Copyright 2017 <a href='#'>EShopper</a>
+            </div>
+
+         </div>
+</footer>
+
+<%= javascript_include_tag '/assets/js/jquery.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag '/assets/js/bootstrap.min.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag '/assets/js/jquery.scrollTo.min.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag '/assets/js/jquery.nicescroll.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag '/assets/js/scripts.js', 'data-turbolinks-track': 'reload' %>
+
+  </body>
+</html>
+>>>>>>> 848441ec1ddcee751fb194112b30a5dde167411e:app/views/layouts/admin.html.erb
