@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'search/index'
+
   get 'aboutus/index'
 
   # namespace :admin do
@@ -49,7 +51,7 @@ Rails.application.routes.draw do
 
   # get 'admin/new'
 
-  root to: 'product_detail#index'
+  root to: 'search#index'
 
     namespace :admin do
       resources :categories

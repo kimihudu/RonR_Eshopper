@@ -41963,3 +41963,985 @@ Processing by ProductDetailController#index as HTML
 Completed 200 OK in 153ms (Views: 135.5ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-07-26 08:55:47 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (16.0ms)
+  Rendered share/_header.html.erb (1.5ms)
+  Rendered share/_footer.html.erb (1.0ms)
+Completed 200 OK in 1736ms (Views: 1711.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 09:20:04 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 172ms (Views: 147.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 09:20:19 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 158ms (Views: 141.3ms)
+
+
+Started GET "/images/thumb.png" for 127.0.0.1 at 2017-07-26 09:20:20 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/thumb.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-26 10:15:29 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 147ms (Views: 129.9ms)
+
+
+Started GET "/images/thumb.png" for 127.0.0.1 at 2017-07-26 10:15:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/thumb.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-26 10:16:18 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 150ms (Views: 132.5ms)
+
+
+Started GET "/images/thumb.png" for 127.0.0.1 at 2017-07-26 10:16:18 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/thumb.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-26 10:39:05 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 166ms (Views: 148.1ms)
+
+
+Started GET "/images/thumb.png" for 127.0.0.1 at 2017-07-26 10:39:05 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/thumb.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-26 10:40:24 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 154ms (Views: 136.5ms)
+
+
+Started GET "/images/thumb.png" for 127.0.0.1 at 2017-07-26 10:40:24 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/thumb.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-26 10:50:29 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 170ms (Views: 152.1ms)
+
+
+Started GET "/images/thumb.png" for 127.0.0.1 at 2017-07-26 10:50:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/thumb.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-26 10:52:06 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 183ms (Views: 140.6ms)
+
+
+Started GET "/images/thumb.png" for 127.0.0.1 at 2017-07-26 10:52:06 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/thumb.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-26 10:53:38 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 156ms (Views: 137.5ms)
+
+
+Started GET "/images/thumb.png" for 127.0.0.1 at 2017-07-26 10:53:38 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/thumb.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-26 10:58:38 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 137.1ms)
+
+
+Started GET "/images/thumb.png" for 127.0.0.1 at 2017-07-26 10:58:38 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/images/thumb.png"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:06:54 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 138.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:11:10 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 160ms (Views: 141.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:11:15 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 178ms (Views: 135.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:11:52 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 152ms (Views: 134.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:11:53 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 168ms (Views: 144.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:11:55 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 157ms (Views: 139.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:12:13 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 156ms (Views: 139.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:12:55 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 137.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:14:35 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 137.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:16:48 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.5ms)
+  Rendered share/_footer.html.erb (1.5ms)
+Completed 200 OK in 173ms (Views: 151.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:17:15 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 190ms (Views: 173.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:21:14 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 178ms (Views: 135.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:22:36 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 176ms (Views: 158.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:23:21 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 165ms (Views: 147.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:23:29 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 152ms (Views: 135.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:24:46 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 152ms (Views: 135.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:26:26 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.0ms)
+Completed 200 OK in 158ms (Views: 140.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:28:01 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 179ms (Views: 161.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:47:38 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 157ms (Views: 139.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:48:04 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (5.0ms)
+  Rendered share/_header.html.erb (2.5ms)
+  Rendered share/_footer.html.erb (1.0ms)
+Completed 200 OK in 172ms (Views: 153.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:48:11 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 173ms (Views: 153.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 11:55:07 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 152ms (Views: 134.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:00:27 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 137.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:04:17 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 153ms (Views: 135.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:05:01 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 138.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:05:28 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 159ms (Views: 141.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:08:31 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered share/_filter.sidebar.html.erb (19.0ms)
+  Rendered search/index.html.erb within layouts/application (37.2ms)
+Completed 500 Internal Server Error in 106ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    4: 
+    5:     <!--category_products-->
+    6:     <div class="panel-group category-products" id="accordian">
+    7:         <% @categories.each do |cat| %>
+    8:             <div class="panel panel-default">
+    9:                 <div class="panel-heading">
+   10:                     <h4 class="panel-title">
+  
+app/views/share/_filter.sidebar.html.erb:7:in `_app_views_share__filter_sidebar_html_erb__5327882_100853316'
+app/views/search/index.html.erb:3:in `_app_views_search_index_html_erb___101841167_102721392'
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:09:38 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+  Rendered share/_filter.sidebar.html.erb (31139.1ms)
+  Rendered search/index.html.erb within layouts/application (31156.9ms)
+Completed 500 Internal Server Error in 31302ms
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x55292868 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    4: 
+    5:     <!--category_products-->
+    6:     <div class="panel-group category-products" id="accordian">
+    7:         <% @categories.each do |cat| %>
+    8:             <div class="panel panel-default">
+    9:                 <div class="panel-heading">
+   10:                     <h4 class="panel-title">
+  
+app/views/share/_filter.sidebar.html.erb:7:in `_app_views_share__filter_sidebar_html_erb__5327882_57407124'
+app/views/search/index.html.erb:3:in `_app_views_search_index_html_erb___101841167_58371564'
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:10:54 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 188ms (Views: 170.8ms)
+
+
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:14:07 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered share/_filter.sidebar.html.erb (20.5ms)
+  Rendered search/index.html.erb within layouts/application (39.4ms)
+Completed 500 Internal Server Error in 108ms
+
+
+  
+SyntaxError (C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:85: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:87: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/share/_filter.sidebar.html.erb:85: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/share/_filter.sidebar.html.erb:87: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/search/index.html.erb:17:in `_app_views_search_index_html_erb___101841167_100081536'
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started POST "/__web_console/repl_sessions/c1d181bffcd0f4c0d448e1f8c9210d2d/trace" for 127.0.0.1 at 2017-07-26 12:14:19 -0400
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started POST "/__web_console/repl_sessions/c1d181bffcd0f4c0d448e1f8c9210d2d/trace" for 127.0.0.1 at 2017-07-26 12:14:32 -0400
+Started POST "/__web_console/repl_sessions/c1d181bffcd0f4c0d448e1f8c9210d2d/trace" for 127.0.0.1 at 2017-07-26 12:14:34 -0400
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started POST "/__web_console/repl_sessions/c1d181bffcd0f4c0d448e1f8c9210d2d/trace" for 127.0.0.1 at 2017-07-26 12:14:37 -0400
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:16:07 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered share/_filter.sidebar.html.erb (0.5ms)
+  Rendered search/index.html.erb within layouts/application (18.8ms)
+Completed 500 Internal Server Error in 87ms
+
+
+  
+SyntaxError (C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:81: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:83: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/share/_filter.sidebar.html.erb:81: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/share/_filter.sidebar.html.erb:83: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/search/index.html.erb:17:in `_app_views_search_index_html_erb___101841167_99720528'
+Started POST "/__web_console/repl_sessions/0e94aaee9bc2d5bcdfc1ac294c3de4de/trace" for 127.0.0.1 at 2017-07-26 12:16:14 -0400
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:19:02 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered share/_filter.sidebar.html.erb (0.5ms)
+  Rendered search/index.html.erb within layouts/application (17.5ms)
+Completed 500 Internal Server Error in 84ms
+
+
+  
+SyntaxError (C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:81: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:83: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/share/_filter.sidebar.html.erb:81: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/share/_filter.sidebar.html.erb:83: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/search/index.html.erb:19:in `_app_views_search_index_html_erb___101841167_103083660'
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started POST "/__web_console/repl_sessions/8620f05e7faac9479d422c065b87713f/trace" for 127.0.0.1 at 2017-07-26 12:19:13 -0400
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:20:47 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered share/_filter.sidebar.html.erb (0.5ms)
+  Rendered search/index.html.erb within layouts/application (18.4ms)
+Completed 500 Internal Server Error in 86ms
+
+
+  
+SyntaxError (C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:81: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:83: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/share/_filter.sidebar.html.erb:81: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/share/_filter.sidebar.html.erb:83: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/search/index.html.erb:12:in `_app_views_search_index_html_erb___101841167_81094884'
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started POST "/__web_console/repl_sessions/6361e218c4bf54951ccb77e3932c53ad/trace" for 127.0.0.1 at 2017-07-26 12:21:44 -0400
+Started POST "/__web_console/repl_sessions/6361e218c4bf54951ccb77e3932c53ad/trace" for 127.0.0.1 at 2017-07-26 12:21:45 -0400
+Started POST "/__web_console/repl_sessions/6361e218c4bf54951ccb77e3932c53ad/trace" for 127.0.0.1 at 2017-07-26 12:21:45 -0400
+Started POST "/__web_console/repl_sessions/6361e218c4bf54951ccb77e3932c53ad/trace" for 127.0.0.1 at 2017-07-26 12:21:46 -0400
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started POST "/__web_console/repl_sessions/6361e218c4bf54951ccb77e3932c53ad/trace" for 127.0.0.1 at 2017-07-26 12:22:13 -0400
+Started POST "/__web_console/repl_sessions/6361e218c4bf54951ccb77e3932c53ad/trace" for 127.0.0.1 at 2017-07-26 12:22:16 -0400
+Started POST "/__web_console/repl_sessions/6361e218c4bf54951ccb77e3932c53ad/trace" for 127.0.0.1 at 2017-07-26 12:22:19 -0400
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started POST "/__web_console/repl_sessions/6361e218c4bf54951ccb77e3932c53ad/trace" for 127.0.0.1 at 2017-07-26 12:22:26 -0400
+Started POST "/__web_console/repl_sessions/6361e218c4bf54951ccb77e3932c53ad/trace" for 127.0.0.1 at 2017-07-26 12:22:29 -0400
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:22:50 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 178ms (Views: 136.2ms)
+
+
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:23:16 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered share/_filter.sidebar.html.erb (0.5ms)
+  Rendered search/index.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 85ms
+
+
+  
+SyntaxError (C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:81: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:83: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/share/_filter.sidebar.html.erb:81: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/share/_filter.sidebar.html.erb:83: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/search/index.html.erb:7:in `_app_views_search_index_html_erb___101841167_103195656'
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:24:56 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered share/_filter.sidebar.html.erb (0.5ms)
+  Rendered search/index.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 86ms
+
+
+  
+SyntaxError (C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:81: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:83: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/share/_filter.sidebar.html.erb:81: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/share/_filter.sidebar.html.erb:83: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/search/index.html.erb:19:in `_app_views_search_index_html_erb___101841167_100629144'
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:25:12 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered share/_filter.sidebar.html.erb (1.0ms)
+  Rendered search/index.html.erb within layouts/application (18.0ms)
+Completed 500 Internal Server Error in 87ms
+
+
+  
+SyntaxError (C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:77: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/Student/Desktop/Ruby_on_Rails_Lessons/RonR_Eshopper/app/views/share/_filter.sidebar.html.erb:79: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/share/_filter.sidebar.html.erb:77: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/share/_filter.sidebar.html.erb:79: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/search/index.html.erb:19:in `_app_views_search_index_html_erb___101841167_96394584'
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started POST "/__web_console/repl_sessions/ab0d1672f8e18994b92f33865d655a99/trace" for 127.0.0.1 at 2017-07-26 12:25:19 -0400
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:25:53 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered share/_filter.sidebar.html.erb (0.5ms)
+  Rendered search/index.html.erb within layouts/application (19.0ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 177ms (Views: 158.8ms)
+
+
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:26:23 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered share/_filter.sidebar.html.erb (0.0ms)
+  Rendered search/index.html.erb within layouts/application (18.0ms)
+  Rendered share/_header.html.erb (0.5ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 170ms (Views: 152.9ms)
+
+
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+Started GET "/shop.html" for 127.0.0.1 at 2017-07-26 12:26:37 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/shop.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-26 12:26:42 -0400
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered share/_filter.sidebar.html.erb (0.5ms)
+  Rendered search/index.html.erb within layouts/application (18.2ms)
+  Rendered share/_header.html.erb (1.0ms)
+  Rendered share/_footer.html.erb (0.5ms)
+Completed 200 OK in 175ms (Views: 157.4ms)
+
+
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
+MONGODB | No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017
