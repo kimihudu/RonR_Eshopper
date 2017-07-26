@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'aboutus/index'
+  # get 'aboutus/index'
 
   # namespace :admin do
   #   get 'product/index'
@@ -49,17 +49,19 @@ Rails.application.routes.draw do
 
   # get 'admin/new'
 
-  root to: 'auth#login'
+  root to: 'home#index'
 
     namespace :admin do
       resources :categories
       resources :products
     end
   # resources :checkout
-  # resources :home
+  # resources :homeexit
+
   resources :products
   # resources :product_detail
-  # resources :auth
+  resources :aboutus
+  resources :auth
   resources :contact
   resources :checkout
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
