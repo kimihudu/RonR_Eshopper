@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Rails.application.routes.draw do
   # get 'aboutus/index'
 
@@ -72,6 +73,8 @@ Rails.application.routes.draw do
 end
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> d56e174014aa4578e423d0ce6a55d4cc978e706f
 Rails.application.routes.draw do
   
 
@@ -135,6 +138,7 @@ Rails.application.routes.draw do
 
 
 end
+<<<<<<< HEAD
 =======
 Rails.application.routes.draw do
   get 'aboutus/index'
@@ -207,3 +211,5 @@ Rails.application.routes.draw do
 end
 >>>>>>> 848441ec1ddcee751fb194112b30a5dde167411e
 >>>>>>> 6c021309e0789ed0e3c32b2efd8e221a8555bbe1
+=======
+>>>>>>> d56e174014aa4578e423d0ce6a55d4cc978e706f
