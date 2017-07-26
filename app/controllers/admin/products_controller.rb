@@ -1,4 +1,6 @@
-class Admin::ProductController < ApplicationController
+class Admin::ProductsController < ApplicationController
+  layout "cust_admin"
+  
   def index
   end
 

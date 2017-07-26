@@ -1,8 +1,7 @@
-class Admin::CategoryController < ApplicationController
-
-  layout 'admin'
-  def index
-
+class Admin::CategoriesController < ApplicationController
+  layout "cust_admin"
+   def index
+  
   end
 
   def show
