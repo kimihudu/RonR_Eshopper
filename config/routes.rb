@@ -1,5 +1,13 @@
 
 Rails.application.routes.draw do
+  get 'users/all'
+
+  get 'users/new'
+
+  get 'users/create'
+
+  get 'users/show'
+
   # get 'aboutus/index'
 
   # namespace :admin do
@@ -55,6 +63,9 @@ Rails.application.routes.draw do
     namespace :admin do
       resources :categories
       resources :products
+    end
+    namespace :auth do
+
     end
   # resources :checkout
   # resources :homeexit
