@@ -1,17 +1,17 @@
-@extends('admin.master')
+<!-- @extends('admin.master')
 
-@section('content')
+@section('content') -->
 
 
   <section id="container" class="">
-        @include('admin.sidebar')
+        <!-- @include('admin.sidebar') -->
         <section id="main-content">
             <section class="wrapper">
 
               <div class="content-box-large col-md-5">
                 <h1>ALt images</h1>
-                <?php $altImages = DB::table('alt_images')->where('proId', $proInfo[0]->id)->get();?>
-@if(count($altImages)!=0)
+                <!-- <?php $altImages = DB::table('alt_images')->where('proId', $proInfo[0]->id)->get();?>
+@if(count($altImages)!=0) -->
                 <table class="table table-striped">
                   <tr>
                     <td>index</td>
@@ -19,7 +19,7 @@
                     <td>alt image</td>
                     <td>status</td>
                   </tr>
-                  @foreach($altImages as $img)
+                  <!-- @foreach($altImages as $img) -->
                   <tr>
                     <td>{{$img->id}}</td>
                     <td>{{$img->proId}}</td>
@@ -27,12 +27,12 @@
                     style="width:50px; height:50px"/></td>
                     <td>{{$img->status}}</td>
                   </tr>
-                  @endforeach
+                  <!-- @endforeach -->
 
                 </table>
-                @else
+                <!-- @else -->
                 <p class="alert alert-danger">this product have not any alt images</p>
-                @endif
+                <!-- @endif -->
               </div>
 
 
@@ -40,7 +40,7 @@
                 <div class="content-box-large col-md-7 pull-right">
                     <h1>Add Alt Images</h1>
 
-                    {!! Form::open(['url' => 'admin/submitAlt',  'method' => 'post', 'enctype' => 'multipart/form-data']) !!}
+                    <!-- {!! Form::open(['url' => 'admin/submitAlt',  'method' => 'post', 'enctype' => 'multipart/form-data']) !!} -->
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                     <table class="table-borderless" style="height:200px">
@@ -66,7 +66,7 @@
                              </td>
                          </tr>
 
-                        {!! Form::close() !!}
+                        <!-- {!! Form::close() !!} -->
                     </table>
                 </div>
 
@@ -74,4 +74,4 @@
       </section>
 </section>
 
-@endsection
+<!-- @endsection -->

@@ -17,17 +17,15 @@
   </head>
   <body>
    <%= render :partial => 'share/admin.header'%>
- 
- <!--@include('admin.admin_header')-->
- <%= render :partial => 'share/admin.sidebar'%>
+   <%= render :partial => 'share/admin.sidebar'%>
+
   <section>
       <%= yield%>
   </section>
 
  <footer>
          <div class="container">
-
-            <div class="copy text-center">
+            <div class="copy text-center" style="text-align:bottom ; margin:2%">
                Copyright 2017 <a href='#'>EShopper</a>
             </div>
 

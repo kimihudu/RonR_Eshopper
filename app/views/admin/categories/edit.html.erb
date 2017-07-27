@@ -1,14 +1,14 @@
 <section id="container" class="">
-        @include('admin.sidebar')
+        <!-- @include('admin.sidebar') -->
         <section id="main-content">
             <section class="wrapper">
 
                 <div class="content-box-large">
                     <h1>Add Category</h1>
 
-                    {!! Form::open(['url' => '/editCat',  'method' => 'post']) !!}
+                    <!-- {!! Form::open(['url' => '/editCat',  'method' => 'post']) !!} -->
                     <table class="table-borderless" style="height:200px; width: 400px">
-                        @foreach($cats as $cat)
+                        <!-- @foreach($cats as $cat) -->
                         <input type="hidden" name="id" class="form-control" value="{{$cat->id}}">
                         <tr>
                             <td> Catgeory Name:</td>
@@ -25,7 +25,7 @@
                                 </select>
                             </td>
                         </tr>
-                        @endforeach
+                        <!-- @endforeach -->
                         <tr>
                             <td colspan="2">
                                 <input type="submit" value="Update Category" class="btn btn-success pull-right">
@@ -33,7 +33,7 @@
                         </tr>
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
-                        {!! Form::close() !!}
+                        <!-- {!! Form::close() !!} -->
                     </table>
                 </div>
 
