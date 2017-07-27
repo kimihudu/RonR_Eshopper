@@ -57,6 +57,7 @@ Rails.application.routes.draw do
 
   resources :products
   # resources :product_detail
+  resources :search
   resources :aboutus
   resources :auth
   resources :contact
