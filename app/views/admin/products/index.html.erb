@@ -1,7 +1,7 @@
 <script src="https://code.jquery.com/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-<?php for($i=1;$i<60;$i++){?>
+<!-- <?php for($i=1;$i<60;$i++){?> 
   // start loop
       $('#amountDiv<?php echo $i;?>').hide();
       $('#checkSale<?php echo $i;?>').show();
@@ -9,8 +9,10 @@ $(document).ready(function(){
           $('#amountDiv<?php echo $i;?>').show();
           $('#checkSale<?php echo $i;?>').hide();
             $('#saveAmount<?php echo $i;?>').click(function(){
-              var salePrice<?php echo $i;?> = $('#spl_price<?php echo $i;?>').val();
-              var pro_id<?php echo $i;?> = $('#pro_id<?php echo $i;?>').val();
+              var salePrice
+               <?php echo $i;?> = $('#spl_price<?php echo $i;?>').val(); 
+              var pro_id
+              <?php echo $i;?> = $('#pro_id<?php echo $i;?>').val();
                 $.ajax({
                   type: 'get',
                   dataType: 'html',
@@ -28,7 +30,7 @@ $(document).ready(function(){
 
         });
         //end loop
-        <?php }?>
+        <?php }?>-->
 });
 
 </script>
@@ -52,8 +54,8 @@ $(document).ready(function(){
                                 <th>update</th>
                             </tr>
                         </thead>
-                        <?php $count =1;?>
-                        @foreach($Products as $product)
+                        <!-- <?php $count =1;?>
+                        @foreach($Products as $product) -->
 
                         <tbody>
                             <tr>
@@ -92,8 +94,8 @@ $(document).ready(function(){
                                    class="btn btn-danger btn-small">Delete</a></td>
                             </tr>
                                   </tbody>
-              <?php $count++;?>
-                        @endforeach
+              <!-- <?php $count++;?>
+                        @endforeach -->
                     </table>
                 </div>
 </section>

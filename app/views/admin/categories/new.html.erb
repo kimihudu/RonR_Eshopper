@@ -1,5 +1,5 @@
 <section id="container" class="">
-        @include('admin.sidebar')
+        <!-- @include('admin.sidebar') -->
         <section id="main-content">
             <section class="wrapper">
 
@@ -7,7 +7,7 @@
                 <div class="content-box-large">
                     <h1>Add Category</h1>
 
-                    {!! Form::open(['url' => 'admin/catForm',  'method' => 'post']) !!}
+                    <!-- {!! Form::open(['url' => 'admin/catForm',  'method' => 'post']) !!} -->
                     <table class="table-borderless" style="height:200px">
 
                         <tr>
@@ -22,7 +22,7 @@
                          </tr>
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
-                        {!! Form::close() !!}
+                        <!-- {!! Form::close() !!} -->
                     </table>
                 </div>
 
