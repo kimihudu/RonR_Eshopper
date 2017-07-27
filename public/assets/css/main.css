@@ -2703,20 +2703,3 @@ a.jp-disabled:hover {
     margin: 0 5px;
 }
 
-
-/* cherry addon css */
-
-#grid header
-{
-  height:24px;
-  width:940px;
-  margin:0px;
-  padding:10px;
-  background:#fff;
-  background:#ececec;
-  margin-bottom:10px; 
-}
-
-.search_items {
-    overflow: hidden;
-}
