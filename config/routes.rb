@@ -4,9 +4,9 @@ Rails.application.routes.draw do
  
   # get 'aboutus/index'
 
- namespace :admin do
-     get 'products/index'
-    end
+   #  namespace :admin do
+  #      get 'products/index'
+  #     end
 
   #  namespace :admin do
   # get 'products/show'
@@ -44,7 +44,7 @@ Rails.application.routes.draw do
   #    get 'categories/new'
   #  end
 
- 
+  get 'userprofile/index' 
 
   root to: 'home#index'
 
@@ -62,6 +62,7 @@ Rails.application.routes.draw do
   resources :auth
   resources :contact
   resources :checkout
+  resources :userprofile
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
 
