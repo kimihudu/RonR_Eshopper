@@ -1,34 +1,19 @@
 <!--new page for seach page -->
 
-<section>
+
     <div class="container">
-        <div class="row">
+        <div class="row">  
+            <div class= "col-sm-3">
+                <%= render "share/filter.sidebar"%>
 
-            <div class="col-sm-3">
-                <div class="left-sidebar">
-
-                    <form action="#" >
-                        <select onchange="javascript:addSort();" name="sortBy" id="sortBy">
-                            <option value="">Default</option>
-                            <option value="PriceHiLo">Price (High to Low)</option>
-                            <option value="PriceLoHi">Price (Low to High)</option>
-                            <option value="pID">Most Recent</option>
-                        </select> 
-                    </form>
-
-                    <%= render :partial => 'share/filter.sidebar' %>
-
-                </div>
-            </div>
-          
+            </div>    
        
-
             <div class="col-sm-9 padding-right">
                 <div class="seach_items">
 
                     <!--search_items-->
 
-                    <h2 class="title text-center">Showing 1 - 12 of 78 Product(s)</h2>
+                    <h2 class="title text-center">Search Items</h2>
 
                     <div class="col-sm-4">
                         <div class="product-image-wrapper">
@@ -356,4 +341,3 @@
 
         </div>
     </div>
-</div>
