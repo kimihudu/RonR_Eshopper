@@ -6,12 +6,9 @@ Rails.application.routes.draw do
 
   # get 'aboutus/index'
 
-<<<<<<< HEAD
-=======
    #  namespace :admin do
   #      get 'products/index'
   #     end
->>>>>>> 218028cb4c29a1225f085323ff716b3f5eb813c9
 
   #  namespace :admin do
   # get 'products/show'
@@ -49,11 +46,8 @@ Rails.application.routes.draw do
   #    get 'categories/new'
   #  end
 
-<<<<<<< HEAD
 
-=======
-  get 'userprofile/index' 
->>>>>>> 218028cb4c29a1225f085323ff716b3f5eb813c9
+  get 'userprofile/index'
 
   root to: 'home#index'
 
