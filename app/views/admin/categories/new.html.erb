@@ -1,7 +1,7 @@
 <h1><p>Add Category</p></h1>
 <table class="table-borderless" style="height:200px; width: 400px">
 
-    <%= simple_form_for(@category,:url => admin_categories_path,:method => :POST,
+    <%= simple_form_for(@category,:url => admin_categories_path,
                                     html: {class: 'form-horizontal'},:defaults => {:input_html => {:class => 'form-control'}}) do|f|%>
 
     <tr>

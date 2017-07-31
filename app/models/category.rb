@@ -3,7 +3,7 @@ class Category
 
   field :name, type: String
   field :lName, type: String
-  field :sub_cat
-  field :status
+  field :sub_cat, type: String
+  field :status, type: String
 
 end
