@@ -2703,3 +2703,59 @@ a.jp-disabled:hover {
     margin: 0 5px;
 }
 
+<<<<<<< HEAD
+
+/* cherry addon css */
+
+#grid header
+{
+  height:24px;
+  width:940px;
+  margin:0px;
+  padding:10px;
+  background:#fff;
+  background:#ececec;
+  margin-bottom:10px; 
+}
+
+.search_items {
+    overflow: hidden;
+}
+
+/*************************
+**** User_Profile CSS ****
+**************************/
+
+.user-info>form>input,  .user-info>form>select, .col-two>form>input, .col-two>form>select {
+    background: #F0F0E9;
+    border: 0 none;
+    padding: 10px;
+    width: 80%;
+    font-weight: 300;
+    font-size:13px;
+}
+   .user-info>form>label, .col-two>form>label , .col-three>form>label{
+    border: 0 none;
+    margin-top: 8px;
+    padding: 8px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.col-two{
+      float: left;
+}
+   
+.col-three>form>input
+{
+    background: #F0F0E9;
+    border: 0 none;
+    font-size: 12px;
+    height: 235px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+}
+=======
+>>>>>>> 9d1c13ddce110d264dfb8b0b1d8653ae9c96b5bf
