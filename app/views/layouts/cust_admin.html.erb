@@ -3,7 +3,7 @@
   <head>
     <title>EasyShop (Admin) </title>
     <meta charset="utf-8">
-<%= csrf_meta_tags %>
+    <%= csrf_meta_tags %>
     <%= stylesheet_link_tag '/assets/css/bootstrap.min.css', media: 'all'%>
     <%= stylesheet_link_tag '/assets/css/bootstrap-theme.css', media: 'all'%>
     <%= stylesheet_link_tag '/assets/css/elegant-icons-style.css', media: 'all'%>
@@ -13,11 +13,6 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <%= javascript_include_tag 'application', 'data-turbolinks-track': true %>
-    <%= javascript_include_tag '/assets/js/jquery.js', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag '/assets/js/bootstrap.min.js', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag '/assets/js/jquery.scrollTo.min.js', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag '/assets/js/jquery.nicescroll.js', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag '/assets/js/scripts.js', 'data-turbolinks-track': 'reload' %>
 
 
     <style>
@@ -51,6 +46,11 @@
          </div>
 </footer>
 
+<%= javascript_include_tag '/assets/js/jquery.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag '/assets/js/bootstrap.min.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag '/assets/js/jquery.scrollTo.min.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag '/assets/js/jquery.nicescroll.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag '/assets/js/scripts.js', 'data-turbolinks-track': 'reload' %>
 
 
 
