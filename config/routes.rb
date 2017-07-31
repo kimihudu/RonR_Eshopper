@@ -2,6 +2,22 @@
 Rails.application.routes.draw do
 
 
+  namespace :admin do
+    get 'profile/index'
+  end
+
+  namespace :admin do
+    get 'profile/show'
+  end
+
+  namespace :admin do
+    get 'profile/new'
+  end
+
+  namespace :admin do
+    get 'profile/edit'
+  end
+
   # get 'admin/index'
 
   # get 'aboutus/index'
