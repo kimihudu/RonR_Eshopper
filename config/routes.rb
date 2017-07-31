@@ -1,23 +1,11 @@
 
 Rails.application.routes.draw do
-<<<<<<< HEAD
-  get 'users/all'
 
-  get 'users/new'
 
-  get 'users/create'
+  # get 'admin/index'
 
-  get 'users/show'
-
-=======
- 
- 
->>>>>>> 0330821ba73b62bf1b5522a8f016518bb1c4ce0c
   # get 'aboutus/index'
 
- namespace :admin do
-     get 'products/index'
-    end
 
   #  namespace :admin do
   # get 'products/show'
@@ -55,7 +43,7 @@ Rails.application.routes.draw do
   #    get 'categories/new'
   #  end
 
- 
+
 
   root to: 'home#index'
 
@@ -68,7 +56,6 @@ Rails.application.routes.draw do
     end
   # resources :checkout
   # resources :homeexit
-
   resources :products
   # resources :product_detail
   resources :search

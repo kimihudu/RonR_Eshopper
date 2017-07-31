@@ -13,7 +13,7 @@
                        <!-- <ul>
                            <li><a href="{{url('/admin/addProduct')}}">Add Products</a></li>
                            <li><a href="{{url('/admin/products')}}">View Products</a></li>
-                       </ul> 
+                       </ul>
                    </li>-->
 
                      <!-- <li class="submenu">
@@ -26,20 +26,17 @@
                            <li><a href="{{url('/admin/addCat')}}">Add Category</a></li>
                            <li><a href="{{url('/admin/categories')}}">View Categories</a></li>
                        </ul>
-                   </li> 
+                   </li>
                </ul>
            </div>
-       </div>--> 
-       
+       </div>-->
+
         <aside>
             <div id="sidebar"  class="nav-collapse ">
                 <!-- sidebar menu start-->
                 <ul class="sidebar-menu">
                     <li class="active">
-                        <a class="" href="{{url('/admin')}}">
-                            <i class="icon_house_alt"></i>
-                            <span>Dashboard</span>
-                        </a>
+                    <%= link_to '<i class="icon_house_alt"></i> Dasboard'.html_safe, 'index' %>
                     </li>
             <li class="sub-menu">
                         <a href="javascript:;" class="">
@@ -48,8 +45,8 @@
                             <span class="menu-arrow arrow_carrot-right"></span>
                         </a>
                         <ul class="sub">
-                            <li><a href="{{url('/addProduct')}}">Add Products</a></li>
-                            <li><a href="{{url('/products')}}">View Products</a></li>
+                            <li><%= link_to 'Add Products',new_admin_product_path%></li>
+                            <li><%= link_to 'View Products',admin_products_path%></li>
                         </ul>
                     </li>
                     <li class="sub-menu">
@@ -59,9 +56,8 @@
                             <span class="menu-arrow arrow_carrot-right"></span>
                         </a>
                         <ul class="sub">
-                          <li><a class="" href="{{url('/addCat')}}">Add Category</a></li>
-
-                            <li><a class="" href="{{url('/categories')}}">View Categories</a></li>
+                           <li><%= link_to 'Add Category', new_admin_category_path%></li>
+                            <li><%= link_to 'View Category', admin_categories_path%></li>
 
                         </ul>
                     </li>
