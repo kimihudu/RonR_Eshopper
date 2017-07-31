@@ -56,7 +56,7 @@ Rails.application.routes.draw do
   # resources :homeexit
 
   resources :products
-  # resources :product_detail
+  resources :product_detail
   resources :search
   resources :aboutus
   resources :auth
