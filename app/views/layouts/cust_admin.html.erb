@@ -3,25 +3,40 @@
   <head>
     <title>EasyShop (Admin) </title>
     <meta charset="utf-8">
+    <%= csrf_meta_tags %>
     <%= stylesheet_link_tag '/assets/css/bootstrap.min.css', media: 'all'%>
     <%= stylesheet_link_tag '/assets/css/bootstrap-theme.css', media: 'all'%>
     <%= stylesheet_link_tag '/assets/css/elegant-icons-style.css', media: 'all'%>
-    <%= stylesheet_link_tag '/assets/css/font-awesome.min.css', media: 'all'%>
     <%= stylesheet_link_tag '/assets/css/widgets.css', media: 'all'%>
     <%= stylesheet_link_tag '/assets/css/style.css', media: 'all'%>
     <%= stylesheet_link_tag '/assets/css/style-responsive.css', media: 'all'%>
-<style>
-#main-content{min-height: 550px}
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-</style>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': true %>
+
+
+
+    <style>
+    #main-content{min-height: 550px}
+    </style>
   </head>
   <body>
    <%= render :partial => 'share/admin.header'%>
    <%= render :partial => 'share/admin.sidebar'%>
 
-  <section>
-      <%= yield%>
-  </section>
+  <section id="container" class="">
+        <section id="main-content">
+            <section class="wrapper">
+
+              <% flash.each do |key, value| %>
+                  <div class="alert alert-<%= key %>"><%= value %></div>
+              <% end %>
+
+              <%= yield%>
+
+            </section>
+        </section>
+</section>
 
  <footer>
          <div class="container">
@@ -37,6 +52,15 @@
 <%= javascript_include_tag '/assets/js/jquery.scrollTo.min.js', 'data-turbolinks-track': 'reload' %>
 <%= javascript_include_tag '/assets/js/jquery.nicescroll.js', 'data-turbolinks-track': 'reload' %>
 <%= javascript_include_tag '/assets/js/scripts.js', 'data-turbolinks-track': 'reload' %>
+
+<!--timeout for flash[message]-->
+<script type="text/javascript">
+$(document).ready(function(){
+  setTimeout(function(){
+    $('.alert').remove();
+  }, 5000);
+ })
+</script>
 
   </body>
 </html>

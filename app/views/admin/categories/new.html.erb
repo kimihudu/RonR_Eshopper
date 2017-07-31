@@ -1,31 +1,28 @@
-<section id="container" class="">
-        <!-- @include('admin.sidebar') -->
-        <section id="main-content">
-            <section class="wrapper">
+<h1><p>Add Category</p></h1>
+<table class="table-borderless" style="height:200px; width: 400px">
 
+    <%= simple_form_for(@category,:url => admin_categories_path,
+                                    html: {class: 'form-horizontal'},:defaults => {:input_html => {:class => 'form-control'}}) do|f|%>
 
-                <div class="content-box-large">
-                    <h1>Add Category</h1>
+    <tr>
+        <td> <%= f.input :name, :label => 'Category Name' %></td>
+    </tr>
 
-                    <!-- {!! Form::open(['url' => 'admin/catForm',  'method' => 'post']) !!} -->
-                    <table class="table-borderless" style="height:200px">
+    <tr>
+        <td> <%= f.input :sub_cat, :label => 'Sub Category Name'%></td>
+    </tr>
 
-                        <tr>
-                            <td> Catgeory Name:</td>
-                            <td>    <input type="text" name="cat_name" class="form-control"></td>
-                        </tr>
-
-                         <tr>
-                             <td colspan="2">
-                        <input type="submit" value="Add Category" class="btn btn-success pull-right">
-                             </td>
-                         </tr>
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-
-                        <!-- {!! Form::close() !!} -->
-                    </table>
-                </div>
-
-            </section>
-      </section>
-</section>
+    <tr>
+        <td>
+            <%= f.input :status,:label => 'Status', :collection => ['Enable','Disable'], :selected => @category.status == "Enable"? "Enable" : "Disbale" %>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <br>
+            <%= f.button :submit, class: 'btn btn-success pull-right'%>
+        </td>
+    </tr>
+    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+    <% end %>
+</table>
