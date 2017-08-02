@@ -1158,6 +1158,8 @@ h2.title {
 
 #similar-product {
     margin-top: 40px;
+    /*cherry's edit*/
+    margin-bottom: 30px;
 }
 
 #reviews {
@@ -1196,6 +1198,9 @@ h2.title {
 
 #similar-product .carousel-inner .item {
     padding-left: 0;
+    /*cherry's edit*/
+    padding-top: 20px;
+    margin-left: 10%;
 }
 
 #similar-product .carousel-inner .item img {

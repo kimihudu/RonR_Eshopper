@@ -1,4 +1,6 @@
 class Admin::ProfileController < ApplicationController
+  layout 'cust_admin'
+  
   def index
   end
 
