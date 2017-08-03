@@ -32,9 +32,9 @@ Rails.application.routes.draw do
 
   # get 'aboutus/index'
 
- namespace :admin do
-     get 'products/index'
-    end
+#  namespace :admin do
+#      get 'products/index'
+#     end
 
   #  namespace :admin do
   # get 'products/show'
@@ -78,11 +78,22 @@ Rails.application.routes.draw do
   root to: 'home#index'
 
     namespace :admin do
+    resources :admin do
+      get 'admin/admin/logout', to: 'admin/admin#destroy', as: :admin_signout
+    end
     resources :categories
-    resources :products
+    resources :products do
+      get 'admin/product/:id/addat', to: 'admin/products#addAt'
+    end
     resources :profile
 
   end
+
+  # devise_scope :user do
+  #   get '/signout', to: 'devise/sessions#destroy', as: :signout
+  # end
+
+
   # resources :checkout
   # resources :homeexit
 
