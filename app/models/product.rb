@@ -11,6 +11,8 @@ class Product
   field :cat_name, type: Hash
   field :history, type: Array
   field :unit_qTy, type: Integer
+  field :size, type: Hash
+
 
 
 end

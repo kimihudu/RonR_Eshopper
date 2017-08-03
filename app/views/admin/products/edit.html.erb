@@ -1,28 +1,59 @@
-
 <!-- <div class="col-md-1">
 </div>  -->
 
 <div class="col-md-6" style="margin-top:25px">
     <div class="content-box-large ">
-        <!-- {!! Form::open(['url' => 'editProduct', 'method' => 'post']) !!} -->
-        <div class="panel-heading col-md-8">
-            <div class="panel-title">Edit Product
-               
-            </div>
-        </div>
 
-         
-        <!-- <?php $cats=A pp\Categorys::all(); ?> @foreach($Products as $product) -->
-        <div class="panel-body">
-            <div class="col-md-8">
-                <br> Category:
+        <%= simple_form_for(@prod,:url => admin_products_path,:method => :POST,
+     html: {class: 'form-horizontal',:mulitipart => true},:defaults => {:input_html => {:class => 'form-control'}}) do|f|%>
+
+            <!-- {!! Form::open(['url' => 'editProduct', 'method' => 'post']) !!} -->
+            <div class="panel-heading col-md-8">
+                <div class="panel-title">Edit Product
+
+                </div>
+            </div>
+
+            <!-- <?php $cats=A pp\Categorys::all(); ?> @foreach($Products as $product) -->
+           
+            <div class="panel-body">
+                <div class="col-md-8">
+
+                    <!-- <br> Category:
                 <select name="cat_id" class="form-control">
-                    <!-- @foreach($cats as $cat) -->
-                    <option value="{{$cat->name}}" 
-                       </option>
-                    <!-- @endforeach -->
-                </select>
-                <br/>
+                     @foreach($cats as $cat) 
+                    <option value="{{$cat->name}}" </option>
+                        <!-- @endforeach 
+                </select> -->
+
+                        <br/>
+                        <%= f.input :id, :label => 'Product ID:' %>
+
+                            <br/>
+                            <%= f.input :name, :label => 'Product Name' %>
+
+                                <br/>
+                                <%= f.input :brand_name, :label => 'Brand Name:' %>
+
+                                    <br/>
+                                    <%= f.input :cat_name, :label => 'Category' %>
+
+                                        <br/>
+                                        <%= f.input :model, :label => 'Sub-Category' %>
+
+                                            <br/>
+                                            <%= f.input :price, :label => 'Unit Price:' %>
+
+                                                <br/>
+                                                <%= f.input :unit_qTy, :label => 'Unit In Stock:' %>
+
+                                                    <br/>
+                                                    <%= f.input :size,  :label => 'Size:' %>
+
+                                                        <br/>
+                                                        <%= f.input :history, :label => 'Details:' %>
+
+                                                            <!-- <br/>
                 <input type="hidden" name="id" class="form-control" value=""> Name:
                 <input type="text" name="pro_name" class="form-control" value="">
                 <br/> Price:
@@ -36,54 +67,53 @@
                 <br/> Sale price:
                 <input type="text" name="spl_price" class="form-control" value="">
                 <br/> Details:
-                <textarea name="pro_info" class="form-control" rows="2"></textarea>
-                <br/> New Arrival:
-                <p class="pull-right">
-                    <input type="checkbox" name="new_arrival" value="1" />
-                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                <textarea name="pro_info" class="form-control" rows="2"></textarea> -->
+                                                            <br/> New Arrival:
+                                                            <p class="pull-right">
+                                                                <input type="checkbox" name="new_arrival" value="1" />
+                                                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
-                      <br/><input type="submit" class="btn btn-success pull-right" value="Update product" 
-                style="margin-top:10px" />
+                                                                <br/>
+                                                <input type="submit" class="btn btn-success pull-right" value="Update product" style="margin-top:10px" />
+                </div>
+
             </div>
-              
-        </div>
-<!-- 
-        @endforeach {!! Form::close() !!} -->
-         
+
     </div>
 
-   
 </div>
 
 <div class="col-md-4" style="margin-top:25px; margin-left:-4px">
     <!-- <?php $pId=$ Products[0]->id; $prots = DB::table('products_properties') ->where('pro_id', $pId)->get(); if(count($prots)==0) { } else {?> -->
-    <div class="panel-heading" style="height:120px">
-        <div class="panel-title" >
-            Update Proprities
-             <!-- <input type="text" name="spl_price" class="form-control" border="none" value=""> -->
-          <a href="" class="btn btn-info pull-right"  style="margin:-6px; color:#fff">Add more</a>
-        </div>
-    
-
-    <div class="col-sm-12" style="margin-top:100px; ">
-    <div class="content-box-medium " align="center">
-    <div class="panel-heading">
+    <div class="panel-heading" style="height:120px; background-color:white">
         <div class="panel-title">
-            Update Product Image
+            Update Proprities
+            <!-- <input type="text" name="spl_price" class="form-control" border="none" value=""> -->
+            <a href="" class="btn btn-info pull-right" style="margin:-6px; color:#fff">Add more</a>
+        </div>
+
+        <div class="col-sm-12" style="margin-top:100px; ">
+            <div class="content-box-medium " align="center">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        Update Product Image
+                    </div>
+                </div>
+                   <br/>
+                
+                <img src="{{assets($product->img)}}" alt="" class="img-rounded" accept="image/*" width="150px" height="150px" />
+                <br>
+                <br>
+                <p><a href="{{url('/EditImage')}}/{{$product->id}}" class="btn btn-info">Change Image</a>
+                </p>
+            </div>
         </div>
     </div>
-
-    <img src="{{asset($product->img)}}" alt="" class="img-rounded" width="150px" height="150px" />
-    <br>
-    <br>
-    <p><a href="{{url('/EditImage')}}/{{$product->id}}" class="btn btn-info">Change Image</a>
-    </p>
-  </div></div>
+    <div class="col-md-2">
+    </div>
+    <% end %>
 </div>
-<div class="col-md-2">
-</div>
-</div>
- <!--<div class="content-box-large">
+<!--<div class="content-box-large">
 
     <table class="table table-responsive">
         <tr>
@@ -98,7 +128,7 @@
             <!-- products_properties pro_id 
             <input type="hidden" name="id" value="{{$prot->id}}" size="6" />
             <!--// products_properties id -->
-            <!-- <td>
+<!-- <td>
                 <input type="text" name="size" value="{{$prot->size}}" size="6" />
             </td>
             <td>
@@ -116,7 +146,6 @@
     </table>-->
 <!-- </div> 
 
-
 <hr>
 
 <div class="content-box-large " align="center">
@@ -131,4 +160,5 @@
     <br>
     <p><a href="{{url('/EditImage')}}/{{$product->id}}" class="btn btn-info">Change Image</a>
     </p>
-</div> -->
+</div> 
+</div>-->
