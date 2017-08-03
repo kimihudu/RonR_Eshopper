@@ -1,4 +1,7 @@
 class Admin::CategoriesController < ApplicationController
+  before_action :ensure_admin!
+
+
   layout 'cust_admin'
 
   def index # show list record
@@ -60,5 +63,15 @@ class Admin::CategoriesController < ApplicationController
 
   def category_params # if want to use params for nested attribute --> sub_cat: [:name]
     params.require(:category).permit(:name, :status, :sub_cat)
+  end
+
+  def ensure_admin!
+    unless current_user != nil && current_user.admin?
+      sign_out current_user
+
+      redirect_to root_path
+
+      false
+    end
   end
 end

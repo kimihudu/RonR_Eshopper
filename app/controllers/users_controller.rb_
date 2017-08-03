@@ -1,0 +1,27 @@
+class UsersController < ApplicationController
+
+  def index
+    @user = User.new
+  end
+
+  def new
+    @user = User.new
+  end
+
+  def create
+    @user = User.new params_users
+    if @user.save
+      flash[:success] = "You signed up successfully"
+      redirect_to root_url
+    else
+      flash[:danger] = "Form is invalid"
+      render "index"
+    end
+
+  end
+
+  private
+  def params_users
+    params.require(:user).permit(:usrName,:email,:psw)
+  end
+end

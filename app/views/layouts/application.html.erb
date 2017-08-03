@@ -42,7 +42,13 @@
 
 <!--move slider to specific page-->
   <section>
+
+      <% flash.each do |key, value| %>
+          <div class="alert alert-<%= key %>"><%= value %></div>
+      <% end %>
+
       <%= yield%>
+
   </section>
 
   <footer id="footer">
@@ -59,4 +65,13 @@
   <%= javascript_include_tag '/assets/js/cart.js', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag '/assets/js/cart-checkout.js', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag '/assets/js/searchbox.js', 'data-turbolinks-track': 'reload' %>
+
+  <!--timeout for flash[message]-->
+  <script type="text/javascript">
+    $(document).ready(function(){
+      setTimeout(function(){
+        $('.alert').remove();
+      }, 5000);
+    })
+  </script>
 </html>

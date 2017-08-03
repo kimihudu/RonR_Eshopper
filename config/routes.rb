@@ -2,21 +2,31 @@
 Rails.application.routes.draw do
 
 
-  namespace :admin do
-    get 'profile/index'
-  end
+  # get 'sessions/login,'
 
-  namespace :admin do
-    get 'profile/show'
-  end
+  # get 'sessions/home,'
 
-  namespace :admin do
-    get 'profile/new'
-  end
+  # get 'sessions/profile,'
 
-  namespace :admin do
-    get 'profile/edit'
-  end
+  # get 'sessions/setting'
+
+  # get 'users/new'
+
+  # namespace :admin do
+  #   get 'profile/index'
+  # end
+
+  # namespace :admin do
+  #   get 'profile/show'
+  # end
+
+  # namespace :admin do
+  #   get 'profile/new'
+  # end
+
+  # namespace :admin do
+  #   get 'profile/edit'
+  # end
 
   # get 'admin/index'
 
@@ -63,7 +73,7 @@ Rails.application.routes.draw do
   #  end
 
 
-  get 'userprofile/index'
+  # get 'userprofile/index'
 
   root to: 'home#index'
 
@@ -71,21 +81,19 @@ Rails.application.routes.draw do
       resources :categories
       resources :products
     end
-    namespace :auth do
 
-    end
   # resources :checkout
   # resources :homeexit
   resources :products
   # resources :product_detail
   resources :search
   resources :aboutus
-  resources :auth
+  # resources :auth
   resources :contact
   resources :checkout
   resources :userprofile
+  devise_for :users, :controllers => {registrations: 'registrations'} # --> for customize registrations_controller
+  # resources :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-
-
 
 end

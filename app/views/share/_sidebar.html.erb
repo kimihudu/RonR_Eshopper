@@ -17,13 +17,11 @@
                 <div id="<%= cat.name %>" class="panel-collapse collapse">
                     <div class="panel-body">
                         <ul>
-                        <% cat.sub_cat.each do |s_c| %>
                             <li>
                                 <a href="#prods">
-                                    <%= s_c["name"] %>
+                                    <%= cat.sub_cat.first['name']%>
                                 </a>
                             </li>
-                        <% end %>
                         </ul>
                     </div>
                 </div>
