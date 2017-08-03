@@ -237,7 +237,7 @@
 											</li>
 
 											<li>
-													<a href="{{url('/logout')}}"><i class="icon_profile"></i> Log Out</a>
+													<%= link_to '<i class="icon_profile"></i> Logout'.html_safe,destroy_user_session_path, method: :delete%>
 											</li>
 
 									</ul>

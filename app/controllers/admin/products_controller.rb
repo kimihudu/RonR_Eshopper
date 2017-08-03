@@ -1,5 +1,6 @@
 class Admin::ProductsController < ApplicationController
   layout 'cust_admin'
+  before_action :ensure_admin!
 
   def index
     # @categories = Category.all
@@ -83,5 +84,15 @@ class Admin::ProductsController < ApplicationController
   private
   def pro_params
     params.require(:prod).permit( :name, :brand_name, :cat_name,:model, :price, :unit_qTy, :img , :history) #: [[:date,:price]])
+  end
+
+  def ensure_admin!
+    unless current_user != nil && current_user.admin?
+      sign_out current_user
+
+      redirect_to root_path
+
+      false
+    end
   end
 end
