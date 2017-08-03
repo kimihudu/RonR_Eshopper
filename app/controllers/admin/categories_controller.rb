@@ -37,6 +37,7 @@ class Admin::CategoriesController < ApplicationController
 
   def update # save all changes from edit form
     @category = Category.find(params[:id])
+    
     if @category.update(category_params)
       flash[:success] = t 'category.update.success'
       redirect_to admin_categories_path

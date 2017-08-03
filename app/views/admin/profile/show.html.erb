@@ -1,2 +1,67 @@
-<h1>Admin::Profile#show</h1>
-<p>Find me in app/views/admin/profile/show.html.erb</p>
+<!--admin profile page-->
+<div class='row'>
+    <h1 class='text-center'>Admin Profile Page</h1>
+</div>
+
+<!--side bar-->
+<div id='container'>
+    <div class= 'col-sm-3'>
+        <div class='panel panel-default'>
+            <img src='/assets/admin_imgs/profiledefaultmale.png' class='img-fluid' style="height: auto; width: 100%; display: block;">
+        </div>
+
+        <div class="list-group">
+            <a href="#" class="list-group-item">Upload Picture</a>
+            <a href="#" class="list-group-item">Edit Details</a>
+            <a href="#" class="list-group-item">Reset Password</a>
+        </div>
+
+    </div>
+</div>
+
+<!--admin details show-->
+<div id='container'>
+    <div class= 'col-sm-9'>
+        <div class='bs-example'>
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Name</h3>
+                </div>
+                <div class="panel-body">
+                    '{fname}'+'{lname}'
+                </div>
+            </div>
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Role</h3>
+                </div>
+                <div class="panel-body">
+                    '{admin_role}'  
+                </div>
+            </div>
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Email</h3>
+                </div>
+                <div class="panel-body">
+                    'admin_email' 
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--log-in history panel-->
+<div class='container-fluid'>
+    <div class='col-sm-12'>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Log-in history
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1><p>Add Category</p></h1>
 <table class="table-borderless" style="height:200px; width: 400px">
 
@@ -25,4 +26,33 @@
     </tr>
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
     <% end %>
+=======
+<h1><p>Add Category</p></h1>
+<table class="table-borderless" style="height:200px; width: 400px">
+
+    <%= simple_form_for(@category,:url => admin_categories_path,:method => :POST,
+                                    html: {class: 'form-horizontal'},:defaults => {:input_html => {:class => 'form-control'}}) do|f|%>
+
+    <tr>
+        <td> <%= f.input :name, :label => 'Category Name' %></td>
+    </tr>
+
+    <tr>
+        <td> <%= f.input :sub_cat, :label => 'Sub Category Name'%></td>
+    </tr>
+
+    <tr>
+        <td>
+            <%= f.input :status,:label => 'Status', :collection => ['Enable','Disable'], :selected => @category.status == "Enable"? "Enable" : "Disbale" %>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <br>
+            <%= f.button :submit, class: 'btn btn-success pull-right'%>
+        </td>
+    </tr>
+    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+    <% end %>
+>>>>>>> 7291cd7ceeea45ef8696ed759156e796e9eadae9
 </table>
