@@ -17,7 +17,7 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use footnotes
-gem 'rails-footnotes', '~> 4.1', '>= 4.1.8'
+gem 'rails-footnotes', '~> 4.1', '>= 4.1.8' #--> log params
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -51,7 +51,9 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'meta_request'
+  gem 'better_errors', '~> 2.2' # --> log debug
+  gem 'binding_of_caller', '~> 0.7.2'
+  gem 'meta_request', '~> 0.4.3' # --> rails chrome extension
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -63,5 +65,7 @@ gem 'gmaps4rails'
 
 gem 'coffee-script-source', '~>1.12.2'
 gem 'simple_form'
-gem 'rails-i18n'
+# gem 'rails-i18n' #--> for localize
+gem 'devise', '~> 4.3'
+# gem 'bcrypt', :require => 'bcrypt' #--> crypt pass
 

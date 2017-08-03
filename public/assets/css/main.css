@@ -1446,6 +1446,29 @@ h2.title {
 
 .signup-form {}
 
+.Signup_Errors {
+
+}
+
+.Signup_Errors p {
+    color: #FE980F;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 40px;
+}
+
+.login-form a,
+.signup-form a {
+    color: #696763 !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 17px !important;
+    font-weight: 300 !important;
+    padding: 0 0 10px !important;
+    text-decoration: underline;
+}
+
 .login-form h2,
 .signup-form h2 {
     color: #696763;
@@ -1520,6 +1543,8 @@ h2.title {
     text-align: center;
     width: 50px;
 }
+
+
 
 
 /*************************
@@ -2057,7 +2082,7 @@ textarea {
     font-size: 20px;
     font-weight: 300;
     margin-bottom:12px;
-  
+
 }
 
 .shopper-info .btn-primary {
@@ -2719,7 +2744,7 @@ a.jp-disabled:hover {
   padding:10px;
   background:#fff;
   background:#ececec;
-  margin-bottom:10px; 
+  margin-bottom:10px;
 }
 
 .search_items {
@@ -2750,7 +2775,7 @@ a.jp-disabled:hover {
 .col-two{
       float: left;
 }
-   
+
 .col-three>form>input
 {
     background: #F0F0E9;

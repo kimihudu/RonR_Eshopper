@@ -14,5 +14,16 @@ class Product
   field :size, type: Hash
 
 
+  def self.search(search, page = 1)
+    # where('name LIKE ?', "%#{data}%")
 
+    wildcard_search = "%#{search}%"
+    if search
+      where('name ILIKE ?', wildcard_search)
+        .page(page)
+        .per_page(9)
+    else
+      all
+    end
+end
 end

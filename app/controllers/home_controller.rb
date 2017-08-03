@@ -5,12 +5,16 @@ class HomeController < ApplicationController
     @products = Product.all
   end
 
-  def new
-    @brand = Brand.new
+  def show
+    @prod = Product.find(params[:id])
   end
 
-  private
-  def brand_params
-    params.require(:brand).permit(:name,:lName,:qTy)
-  end
+  # def new
+  #   @brand = Brand.new
+  # end
+
+  # private
+  # def brand_params
+  #   params.require(:brand).permit(:name,:lName,:qTy)
+  # end
 end

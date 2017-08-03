@@ -65,9 +65,7 @@
             <td><%= prod.price%></td>
             <td>
                 <p> <%= prod.img.size != 0 ? "image found" : "image not found "%></p>
-                <%= link_to 'Add' %>
-                <a href="{{url('/')}}/addAlt/{{$product->id}}" class="btn btn-info" style="border-radius:20px;">
-                    <i class="fa fa-plus"></i> Add</a>
+                <%= link_to '<i class="fa fa-plus"></i> Add</a>'.html_safe,class: 'bt btn-info' %>
             </td>
 
             <td>

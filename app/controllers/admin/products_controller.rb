@@ -1,5 +1,7 @@
 class Admin::ProductsController < ApplicationController
   layout 'cust_admin'
+  before_action :authenticate_user!
+  before_action :ensure_admin!
 
   def index
     # @categories = Category.all
@@ -36,18 +38,18 @@ class Admin::ProductsController < ApplicationController
     if @prod.delete
       flash[:success] = t 'product.delete.success'
     else
-      flash[:danger] = t 'product.update.error'     
+      flash[:danger] = t 'product.update.error'
   end
     redirect_to admin_products_path
     end
-    
-  
+
+
 
   def new
     @prod = Product.new
   end
 
-  
+
   def create  # save created record
 
     @prod = Product.new pro_params
@@ -70,20 +72,34 @@ class Admin::ProductsController < ApplicationController
     # path = File.join(directory, name)
     # File.open(path, "wb") { |f| f.write(params[:upload][:img].read) }
     # flash[:notice] = "File uploaded"
-   
+
     # :img =  params[:file].original_filename
 
     tmp = params[:tmp_upload].tempfile
     IO.copy_stream(params[:tmp_upload][0].tempfile, local_filepath)
     directory = "public/images/home/upload"
     destiny_file = File.join(directory, 'uploads', params[:tmp_upload].original_filename)
-    FileUtils.move tmp.path, destiny_file  
+    FileUtils.move tmp.path, destiny_file
     prod.img = destiny_file
 
+  end
+
+  def addAt
+    @prod = Product.find(params[:id])
   end
 
   private
   def pro_params
     params.require(:prod).permit( :name, :brand_name, :cat_name,:model, :price, :unit_qTy, :img , :size, :history) #: [[:date,:price]])
+  end
+
+  def ensure_admin!
+    unless current_user != nil && current_user.admin?
+      sign_out current_user
+
+      redirect_to root_path
+
+      false
+    end
   end
 end
