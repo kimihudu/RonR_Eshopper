@@ -1,11 +1,7 @@
 class Admin::ProfileController < ApplicationController
   layout 'cust_admin'
-<<<<<<< HEAD
   before_actions :ensure_admin!
 
-=======
-  
->>>>>>> 7291cd7ceeea45ef8696ed759156e796e9eadae9
   def index
   end
 
