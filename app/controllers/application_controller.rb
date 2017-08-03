@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   before_action :authenticate_user!, :except => [:index,:show]
   before_action :ensure_admin!
 
-  protect_from_forgery with: :exception
+  # protect_from_forgery with: :null_session
   add_flash_types :success, :warning, :danger, :info
 
   # before_action :set_locale

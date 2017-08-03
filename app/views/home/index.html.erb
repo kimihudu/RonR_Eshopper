@@ -1,58 +1,61 @@
-
 <%=render :partial => 'share/slider'%>
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <%= render partial: 'share/sidebar' %>
-            </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <%= render partial: 'share/sidebar' %>
+                </div>
 
-            <div class="col-sm-9 padding-right">
+                <div class="col-sm-9 padding-right">
 
-                <!--features_items-->
+                    <!--features_items-->
                     <div id="prods" class="features_items" data-service="{{$data['prods']}}">
                         <h2 class="title text-center">Features Items</h2>
                         <!-- navigation holder -->
                         <div class="holder">
                         </div>
                         <ul id="itemContainer">
-                        <% @products.each do |prod|%>
-                        <li>
-                        <div class="col-sm-4">
-                            <div class="product-image-wrapper">
-                                <div class="single-products">
-                                    <div class="productinfo text-center">
-                                        <img src="<%= prod.img %>" alt="">
-                                        <h2>$<%= prod.price%></h2>
-                                        <p><%= prod.name%></p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </div>
-                                    <div class="product-overlay">
-                                        <a href="&lt;?php echo url('/');?&gt;/product_details/&lt;?php echo $prod['_id'];?&gt;">
-                                            </a><div class="overlay-content"><a href="&lt;?php echo url('/');?&gt;/product_details/&lt;?php echo $prod['_id'];?&gt;">
-                                                <img src="<%= prod.img%>" alt="">
-                                                <h2>$<%= prod.price%></h2>
-                                                <p><%= prod.name%></p>
-                                                </a><a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                            </div>
+                            <% @products.each do |prod|%>
+                                <li>
+                                    <div class="col-sm-4">
+                                        <div class="product-image-wrapper">
+                                            <div class="single-products">
+                                                <div class="productinfo text-center">
+                                                    <img src="<%= prod.img %>" alt="">
+                                                    <h2>$<%= prod.price%></h2>
+                                                    <p>
+                                                        <%= prod.name%>
+                                                    </p>
+                                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                </div>
+                                                <div class="product-overlay">
+                                                    <!--<a href="&lt;?php echo url('/');?&gt;/product_details/&lt;?php echo $prod['_id'];?&gt;"></a>-->
+                                                    <div class="overlay-content">
+                                                        <a href="product_detail/<%= prod.id%>">
+                                                            <img src="<%= prod.img%>" alt="">
+                                                            <h2>$<%= prod.price%></h2>
+                                                            <p><%= prod.name%></p>
+                                                        </a>
+                                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    </div>
 
+                                                </div>
+                                            </div>
+                                            <div class="choose">
+                                                <ul class="nav nav-pills nav-justified">
+                                                    <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
+                                                    <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="choose">
-                                    <ul class="nav nav-pills nav-justified">
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        </li>
-                        <% end %>
+                                </li>
+                                <% end %>
                         </ul>
                     </div>
-                <!--/features_items-->
+                    <!--/features_items-->
 
-                <!--category_tab-->
+                    <!--category_tab-->
                     <div class="category-tab">
                         <div class="col-sm-12">
                             <ul class="nav nav-tabs">
@@ -340,9 +343,9 @@
                             </div>
                         </div>
                     </div>
-                <!--/category_tab-->
+                    <!--/category_tab-->
 
-                <!--recommended_items-->
+                    <!--recommended_items-->
                     <div class="recommended_items">
                         <h2 class="title text-center">recommended items</h2>
 
@@ -439,11 +442,10 @@
                             </a>
                         </div>
                     </div>
-                <!--/recomment_item-->
+                    <!--/recomment_item-->
 
+                    <%= render :partial => 'share/cart_wishlist'%>
+                </div>
             </div>
-
-            <%= render :partial => 'share/cart_wishlist'%>
         </div>
-    </div>
-</section>
+    </section>
