@@ -1,6 +1,6 @@
 class Admin::ProfileController < ApplicationController
   layout 'cust_admin'
-  before_actions :ensure_admin!
+  # before_actions :ensure_admin!
 
   def index
   end
