@@ -1,5 +1,5 @@
 class Admin::CategoriesController < ApplicationController
-  before_action :ensure_admin!
+  # before_action :ensure_admin!
 
 
   layout 'cust_admin'

@@ -1,7 +1,7 @@
 class Admin::ProductsController < ApplicationController
   layout 'cust_admin'
-  before_action :authenticate_user!
-  before_action :ensure_admin!
+  # before_action :authenticate_user!
+  # before_action :ensure_admin!
 
   def index
     # @categories = Category.all
@@ -21,6 +21,7 @@ class Admin::ProductsController < ApplicationController
 
   def update  # save all changes from edit form
     @prod = Product.find(params[:id])
+    params[:img] = 'im controller'
 
      if @prod.update(pro_params)
        flash[:success] = t 'product.update.success'
@@ -32,13 +33,13 @@ class Admin::ProductsController < ApplicationController
   end
 
 
-  def delete #delete selected item
+  def destroy #delete selected item
     @prod = Product.find(params[:id])
 
-    if @prod.delete
-      flash[:success] = t 'product.delete.success'
+    if @prod.destroy
+      flash[:success] = t 'product.destroy.success'
     else
-      flash[:danger] = t 'product.update.error'
+      flash[:danger] = t 'product.destroy.error'
   end
     redirect_to admin_products_path
     end
@@ -53,7 +54,8 @@ class Admin::ProductsController < ApplicationController
   def create  # save created record
 
     @prod = Product.new pro_params
-    upload_img @prod
+
+    # upload_img @prod
 
     if @prod.save
        flash[:success] = t "product.create.success"
@@ -90,7 +92,8 @@ class Admin::ProductsController < ApplicationController
 
   private
   def pro_params
-    params.require(:prod).permit( :name, :brand_name, :cat_name,:model, :price, :unit_qTy, :img , :size, :history) #: [[:date,:price]])
+    params.require(:product).permit( :name, :brand_name, :cat_name,:model, :price, :unit_qTy, :size, :history, :img, :cat_name => [[:name,:sub]] ) 
+    #, :history, :img  : [[:date,:price]])
   end
 
   def ensure_admin!
