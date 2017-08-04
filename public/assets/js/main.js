@@ -9,6 +9,8 @@
 
 $(document).ready(function() {
 
+    console.log('im load');
+
 
     var category = $('div.category-products');
     var catContainer = category.find('.panel-default');
@@ -48,7 +50,7 @@ $(document).ready(function() {
     //     });
     // });
 
-    /* initiate the plugin */
+    /* initiate the plugin jpages */
     $("div.holder").jPages({
         containerID: "itemContainer",
         perPage: 6
