@@ -14,6 +14,8 @@ class Admin::ProductsController < ApplicationController
 
   def edit
     @prod = Product.find(params[:id])
+    @categories = Category.all
+
   end
 
 
@@ -88,7 +90,7 @@ class Admin::ProductsController < ApplicationController
 
   private
   def pro_params
-    params.require(:prod).permit( :name, :brand_name, :cat_name,:model, :price, :unit_qTy, :img , :history) #: [[:date,:price]])
+    params.require(:prod).permit( :name, :brand_name, :cat_name,:model, :price, :unit_qTy, :img , :size, :history) #: [[:date,:price]])
   end
 
   def ensure_admin!

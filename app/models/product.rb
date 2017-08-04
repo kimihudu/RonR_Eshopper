@@ -11,6 +11,8 @@ class Product
   field :cat_name, type: Hash
   field :history, type: Array
   field :unit_qTy, type: Integer
+  field :size, type: Hash
+
 
   def self.search(search, page = 1)
     # where('name LIKE ?', "%#{data}%")
