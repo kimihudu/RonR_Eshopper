@@ -105,7 +105,10 @@ Rails.application.routes.draw do
   resources :contact
   resources :checkout
   resources :userprofile
-  devise_for :users, :controllers => {registrations: 'registrations'} # --> for customize registrations_controller
+
+  # for customize devise controller
+  devise_for :users, :controllers => {registrations: 'user/registrations',
+                                      users: 'user/users'}
   # resources :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 

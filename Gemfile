@@ -68,4 +68,5 @@ gem 'simple_form'
 # gem 'rails-i18n' #--> for localize
 gem 'devise', '~> 4.3'
 # gem 'bcrypt', :require => 'bcrypt' #--> crypt pass
+gem 'country_select', '~> 3.1'
 

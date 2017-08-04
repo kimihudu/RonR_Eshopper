@@ -21,9 +21,18 @@ class User
   field :username, type: String
   field :password, type: String
   field :admin, type: Boolean
-  field :address, type: Hash
   field :cart, type: Hash
   field :wishlist, type: Hash
+
+  ## personal info
+  field :first_name, type: String
+  field :last_name, type: String
+  field :address, type: Hash
+  field :gender, type: String
+  field :city, type: String
+  field :country, type: String
+  field :D_o_B, type: Time
+  field :phone, type: Integer
 
   ## Database authenticatable
   field :email,              type: String, default: ''
