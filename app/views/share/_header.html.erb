@@ -77,8 +77,12 @@
                                 </li>
                                 <% if user_signed_in?%>
                                 <li>
+                                    <%= link_to '<i class="fa fa-external-link-square"></i> Go Admin'.html_safe,admin_products_path%>
+                                </li>
+                                <li>
                                     <%= link_to '<i class="fa fa-lock"></i> Logout'.html_safe,destroy_user_session_path, method: :delete%>
                                 </li>
+
                                 <% else %>
                                 <li>
                                     <%= link_to '<i class="fa fa-sign-in"></i> Login'.html_safe,new_user_session_path%>
@@ -86,6 +90,7 @@
                                 <li>
                                     <%= link_to '<i class="fa fa-plus"></i> SignUp'.html_safe,new_user_registration_path%>
                                 </li>
+
                                 <% end %>
                             </ul>
                         </div>
