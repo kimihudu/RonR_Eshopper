@@ -2,8 +2,9 @@ class SearchController < ApplicationController
   def index
     @brands = Brand.all
     @categories = Category.all
-    if params[:search]
-      @products = Product.search(params[:search][:query]).order('created_at DESC')
+    if params[:search][:query]
+      @products = Product.full_text_search(params[:search][:query])
+      # @products = Product.search(params[:search][:query]).order('created_at DESC')
     else
       @products = Product.all.order('created_at DESC')
     end

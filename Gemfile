@@ -72,5 +72,6 @@ gem 'country_select', '~> 3.1'
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick', '~> 4.3', :require => 'mini_magick'
 gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
+gem 'mongoid_search'
 # gem 'mongoid-grid_fs', github: 'ahoward/mongoid-grid_fs'
 

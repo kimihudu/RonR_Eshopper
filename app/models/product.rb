@@ -2,8 +2,9 @@
 
 class Product
   include Mongoid::Document
+  include Mongoid::Search
 
-  mount_uploader :img, ImageUploader
+
 
   field :name, type: String
   field :model, type: String
@@ -16,6 +17,9 @@ class Product
   field :history, type: Array
   field :unit_qTy, type: Integer
   field :size, type: Hash
+
+  mount_uploader :img, ImageUploader
+  search_in :name, :model, :price, :cat_name => [:name, :sub]
 
   # def self.search(search, page = 1)
   #   # where('name LIKE ?', "%#{data}%")
@@ -30,8 +34,7 @@ class Product
   #   end
   # end
 
-  def self.search(search)
-    where('name LIKE ?', "%#{search}%")
-    where('lName LIKE ?', "%#{search}%")
-  end
+  # def self.search(search)
+  #   where('name LIKE ?', "%#{search}%")
+  # end
 end
