@@ -13,24 +13,26 @@
                     <div class="holder">
                     </div>
                     <ul id="itemContainer">
-                    @foreach($data['prods'] as $prod)
+                    <% @products.each do |prod|%>
                     <li>
                     <div class="col-sm-4">
                         <div class="product-image-wrapper">
                             <div class="single-products">
                                 <div class="productinfo text-center">
-                                    <img src="{{$prod -&gt; img}}" alt="">
-                                    <h2>${{$prod -&gt; price}}</h2>
-                                    <p>{{$prod   -&gt; name}}</p>
+                                    <img src="<%= prod.img %>" alt="">
+                                    <h2>$<%= prod.price%></h2>
+                                    <p><%= prod.name%></p>
                                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                 </div>
                                 <div class="product-overlay">
-                                    <a href="&lt;?php echo url('/');?&gt;/product_details/&lt;?php echo $prod['_id'];?&gt;">
-                                        </a><div class="overlay-content"><a href="&lt;?php echo url('/');?&gt;/product_details/&lt;?php echo $prod['_id'];?&gt;">
-                                            <img src="{{$prod -&gt; img}}" alt="">
-                                            <h2>{{$prod -&gt; price}}</h2>
-                                            <p>{{$prod  -&gt; name}}</p>
-                                            </a><a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="<%= product_detail_path(prod.id)%>"></a>
+                                        <div class="overlay-content">
+                                            <a href="<%= product_detail_path(prod.id)%>">
+                                                <img src="<%= prod.img %>" alt="">
+                                                <h2>$<%= prod.price%></h2>
+                                                <p><%= prod.name%></p>
+                                            </a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                 </div>
@@ -44,7 +46,7 @@
                         </div>
                     </div>
                     </li>
-                    @endforeach
+                    <% end %>
                     </ul>
                 </div><!--features_items-->
 

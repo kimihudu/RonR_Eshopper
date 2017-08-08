@@ -3,16 +3,17 @@ class SearchController < ApplicationController
     @brands = Brand.all
     @categories = Category.all
     if params[:search]
-      @products = Product.search(params[:search]).order("created_at DESC")
+      @products = Product.search(params[:search][:query]).order('created_at DESC')
     else
       @products = Product.all.order('created_at DESC')
     end
   end
 
-  def show
+  def show; end
 
-  end
-
+  # def search
+  #   @search = params[:search][:query]
+  # end
   # private
   # def data_params
   #   params.require(:pro).permit(:data)

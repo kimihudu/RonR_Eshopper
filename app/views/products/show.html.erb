@@ -29,12 +29,14 @@
                                         <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                     </div>
                                     <div class="product-overlay">
-                                        <a href="&lt;?php echo url('/');?&gt;/product_details/&lt;?php echo $prod['_id'];?&gt;">
-                                            </a><div class="overlay-content"><a href="&lt;?php echo url('/');?&gt;/product_details/&lt;?php echo $prod['_id'];?&gt;">
+                                        <a href="<%= product_detail_path(prod.id)%>"></a>
+                                            <div class="overlay-content">
+                                            <a href="<%= product_detail_path(prod.id)%>">
                                                 <img src="<%= prod.img%>" alt="">
                                                 <h2>$<%= prod.price%></h2>
                                                 <p><%= prod.name%></p>
-                                                </a><a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            </a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                             </div>
 
                                     </div>
