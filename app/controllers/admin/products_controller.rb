@@ -1,7 +1,7 @@
 class Admin::ProductsController < ApplicationController
   layout 'cust_admin'
   # before_action :authenticate_user!
-  # before_action :ensure_admin!
+  before_action :ensure_admin!
 
   def index
     # @categories = Category.all
@@ -77,11 +77,11 @@ class Admin::ProductsController < ApplicationController
 
     # :img =  params[:file].original_filename
 
-    tmp = params[:tmp_upload].tempfile
-    IO.copy_stream(params[:tmp_upload][0].tempfile, local_filepath)
+    img = prod.img
+    IO.copy_stream(self.params[:img][0].tempfile, local_filepath)
     directory = "public/images/home/upload"
-    destiny_file = File.join(directory, 'uploads', params[:tmp_upload].original_filename)
-    FileUtils.move tmp.path, destiny_file
+    destiny_file = File.join(directory, 'uploads', self.params[:img].original_filename)
+    FileUtils.move img.path, destiny_file
     prod.img = destiny_file
 
   end
@@ -92,7 +92,7 @@ class Admin::ProductsController < ApplicationController
 
   private
   def pro_params
-    params.require(:product).permit( :name, :brand_name, :cat_name,:model, :price, :unit_qTy, :size, :history, :img, :cat_name => [[:name,:sub]] ) 
+    params.require(:product).permit( :name, :brand_name, :cat_name, :price, :unit_qTy, :size, :history, :img, :cat_name => [:name,:sub] )
     #, :history, :img  : [[:date,:price]])
   end
 

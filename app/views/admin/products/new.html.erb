@@ -30,30 +30,33 @@
 
 
                           <br/>
-                         <%= f.input :cat_name, :label => 'Category' %>
-                        
-                        <br/> 
-                        <%= f.input :model, :label => 'Sub-Category' %>
+                        <%= f.simple_fields_for :cat_name do |ff|%>
 
-                         <br/> 
+                            <%= ff.input :name, :label => 'Category' %>
+
+                            <br/>
+                            <%= ff.input :sub, :label => 'Sub-Category' %>
+
+                        <% end %>
+
+                         <br/>
                         <%= f.input :price, :label => 'Unit Price:' %>
-                        
+
                         <br/>
                          <%= f.input :unit_qTy, :label => 'Unit In Stock:' %>
 
                          <br/>
                          <%= f.input :img, as: :file, :label => 'Image:' %>
-                            
-                         <br/>
-                         <%= f.input :history, :label => 'Details:' %>
-                        
-                        
+
+
+
+
                         <!-- <br/> Price
                         <input type="text" name="pro_price" class="form-control">
                           <br/>
                          <%= f.input :history, :label => 'Details:' %>
  <br/>
-                         
+
                         <br/> Code:
                         <input type="text" name="pro_code" class="form-control">
                         <br/> Imgage
@@ -82,7 +85,7 @@
             <div class="col-md-12">
                 <div class="content-box-header">
                     <div class="panel-title" style="font-style:italic;padding:10px">Add Properties
-                        
+
                         <div class="content-box-large box-with-header">
 
                             Pellentesque luctus quam quis consequat vulputate. Sed sit amet diam ipsum. Praesent in pellentesque diam, sit amet dignissim erat. Aliquam erat volutpat. Aenean laoreet metus leo, laoreet feugiat enim suscipit quis. Praesent mauris mauris, ornare vitae tincidunt sed, hendrerit eget augue. Nam nec vestibulum nisi, eu dignissim nulla.

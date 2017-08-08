@@ -1,6 +1,11 @@
 require_relative 'boot'
 
 require "rails"
+
+# for updload img
+require 'carrierwave'
+require 'carrierwave/mongoid'
+
 # Pick the frameworks you want:
 require "active_model/railtie"
 require "active_job/railtie"
@@ -11,6 +16,8 @@ require "action_view/railtie"
 require "action_cable/engine"
 require "sprockets/railtie"
 require "rails/test_unit/railtie"
+# require "mongoid/railtie"
+
 
 # Where the I18n library should search for translation files
 # I18n.locale = :en
@@ -52,4 +59,6 @@ module Eshopper
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
   end
+
+  # require 'carrierwave/orm/mongoid'
 end

@@ -6,7 +6,7 @@
 <div class="col-md-6" style="margin-top:25px">
     <div class="content-box-large ">
 
-        
+
 
             <!-- {!! Form::open(['url' => 'editProduct', 'method' => 'post']) !!} -->
             <div class="panel-heading col-md-8">
@@ -16,15 +16,15 @@
             </div>
 
             <!-- <?php $cats=A pp\Categorys::all(); ?> @foreach($Products as $product) -->
-           
+
             <div class="panel-body">
                 <div class="col-md-8">
 
                     <!-- <br> Category:
                 <select name="cat_id" class="form-control">
-                     @foreach($cats as $cat) 
+                     @foreach($cats as $cat)
                     <option value="{{$cat->name}}" </option>
-                        @endforeach 
+                        @endforeach
                 </select> -->
 
                         <br/>
@@ -34,18 +34,17 @@
                         <%= f.input :name, :label => 'Product Name' %>
 
                         <br/>
-                        
+
                         <%= f.input :brand_name, :label => 'Brand Name:' %>
 
                         <br/>
 
-                        <%= f.fields_for :cat_name do |f_cn|%>
-                             <%= f_cn.input :cat_name[:sub], :label => 'Category' %> 
-                        <% end %>
-                        
+                        <%= f.simple_fields_for :cat_name do |ff|%>
+                             <%= ff.input :name, :label => 'Category' %>
 
-                        <br/>
-                        <%= f.input :model, :label => 'Sub-Category' %>
+                            <br/>
+                            <%= ff.input :sub, :label => 'Sub-Category' %>
+                        <% end %>
 
                         <br/>
                         <%= f.input :price, :label => 'Unit Price:' %>
@@ -58,16 +57,16 @@
 
                         <br/>
                          <!-- <%= f.input :history, :label => 'Details:' %>  -->
-                                                           
+
                         <br/> New Arrival:
                         <p class="pull-right">
                             <input type="checkbox" name="new_arrival" value="1" />
-                            <input type="hidden" name="_token" value="{{ csrf_token() }}"> 
+                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                         <br/>
 
                         <%= f.button :submit, :label => 'Update product',
-                        :class=> 'btn btn-success pull-right', style: "margin-top:10px" %>               
+                        :class=> 'btn btn-success pull-right', style: "margin-top:10px" %>
                 </div>
 
             </div>
@@ -81,8 +80,8 @@
     <div class="panel-heading" style="height:120px; background-color:white">
         <div class="panel-title">
             Update Proprities
-                 
-   
+
+
             <!-- <input type="text" name="spl_price" class="form-control" border="none" value=""> -->
             <a href="" class="btn btn-info pull-right" style="margin:-6px; color:#fff">Add more</a>
         </div>
@@ -95,22 +94,31 @@
                     </div>
                 </div>
                    <br/>
-            
-                <img src="<%= @prod.img%>" alt="" class="img-rounded" accept="images/*" width="150px" height="150px" /> 
+
+                <img src="<%= @prod.img%>" alt="" class="img-rounded img-current" accept="images/*" width="150px" height="150px" />
                 <br>
                 <br>
-                <p> 
-                    <%= f.file_field :img, :id => 'prod_img', style: 'display: none'%>
-                    <input type="button" style="margin-left:45px" value="Browse..." onclick="document.getElementById('prod_img').click();" class="btn btn-info" />
+                <p>
+                    <%= f.file_field :img, :id => 'prod_img', style: 'display: none', class: 'btn btn-info'%>
+                    <input type="button" style="margin-left:45px" value="Browse..." class="btn btn-info btn-browser" />
+                    <script>
+                        $('.btn-browser').on('click',function(e){
+                            $('#prod_img').click();
+                            $('#prod_img').show();
+                            $('.img-current').hide();
+                            $('.btn-browser').hide();
+
+                        })
+                    </script>
                 </p>
             </div>
         </div>
     </div>
     <div class="col-md-2">
     </div>
-  
+
 </div>
-</div>  
+</div>
   <% end %>
 
  <!-- <br/>
@@ -137,10 +145,10 @@
             <td>price</td>
             <td>Update</td>
         </tr>
-        @foreach($prots as $prot) {!! Form::open(['url' => '/editProperty', 'method' => 'post']) !!} 
+        @foreach($prots as $prot) {!! Form::open(['url' => '/editProperty', 'method' => 'post']) !!}
         <tr>
             <input type="hidden" name="pro_id" value="{{$prot->pro_id}}" size="6" />
-            <!-- products_properties pro_id 
+            <!-- products_properties pro_id
             <input type="hidden" name="id" value="{{$prot->id}}" size="6" />
             <!--// products_properties id -->
 <!-- <td>
@@ -156,10 +164,10 @@
                 <input type="submit" class="btn btn-success" value="Save" style="margin:-6px; color:#fff">
             </td>
         </tr>
-        <!-- {!! Form::close() !!} @endforeach 
+        <!-- {!! Form::close() !!} @endforeach
 
     </table>-->
-<!-- </div> 
+<!-- </div>
 
 <hr>
 
@@ -175,5 +183,5 @@
     <br>
     <p><a href="{{url('/EditImage')}}/{{$product->id}}" class="btn btn-info">Change Image</a>
     </p>
-</div> 
+</div>
 </div>-->

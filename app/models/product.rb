@@ -1,5 +1,10 @@
+
+
 class Product
   include Mongoid::Document
+
+  mount_uploader :img, ImageUploader
+
 
   field :name, type: String
   field :model, type: String
@@ -9,7 +14,7 @@ class Product
   # field :available_date, type: Time
   # field :last_update, type: Time
   field :cat_name, type: Hash
-  field :history, type: Hash
+  field :history, type: Array
   field :unit_qTy, type: Integer
   field :size, type: Hash
 

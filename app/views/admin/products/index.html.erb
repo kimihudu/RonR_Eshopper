@@ -53,7 +53,7 @@
     <% @products.each do |prod| %>
     <tbody>
         <tr>
-            <td> <img src="<%= prod.img%>" alt="" width="50px" height="50px" />
+            <td> <img src="<%= prod.img.url%>" alt="" width="50px" height="50px" />
             </td>
             <td><%= prod.cat_name['name']%></td>
             <td><%= prod.cat_name['sub']%></td>
@@ -63,10 +63,15 @@
             <td>{{$product->pro_code}}</td>
             -->
             <td><%= prod.price%></td>
+
+            <!--
             <td>
-                <p> <%= prod.img.size != 0 ? "image found" : "image not found "%></p>
-                <%= link_to '<i class="fa fa-plus"></i> Add</a>'.html_safe,class: 'bt btn-info' %>
+                <p> <%= prod.img != nil ? "image found" : "image not found "%></p>
+
+                    <%= link_to '<i class="fa fa-plus"></i> Add</a>'.html_safe,'#', {:class=> 'btn btn-info'} %>
+
             </td>
+            -->
 
             <td>
                 <div id="checkSale<?php echo $count;?>">
@@ -87,7 +92,7 @@
             <td>
                 <%= link_to 'Edit', edit_admin_product_path(prod),class:'btn btn-success btn-small'%>
             </td>
-            <td> 
+            <td>
                 <%= link_to 'Delete',admin_product_path(prod),:method => :delete,:class => 'btn btn-danger btn-small' %>
             </td>
         </tr>

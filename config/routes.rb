@@ -84,6 +84,8 @@ Rails.application.routes.draw do
     resources :categories
     resources :products do
       get 'admin/product/:id/addat', to: 'admin/products#addAt'
+      # match "/products/uploads/*path" => "gridfs#serve"
+      # match 'admin/product/:id/:filename' => 'gridfs#image'
     end
     resources :profile
 
